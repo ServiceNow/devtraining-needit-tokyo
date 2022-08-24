@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="745634012f6911102341d5ea2799b65c" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_choice_5" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal" sequence="0" value="legal"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal 1" label="What needed" mandatory="true" max_length="40" name="u_choice_6" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal 1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="1" value="legal 2"/>
+                <element inactive_on_update="false" label="Legal 3" sequence="2" value="legal 3"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_glide_date_2" type="glide_date"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Request type" max_length="1024" name="u_glide_list_3" reference="cmdb_ci_appl_dot_net" type="glide_list"/>
+        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="What needed" mandatory="true" max_length="1024" name="u_glide_list_4" reference="cmdb_ci_appl_dot_net" type="glide_list"/>
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_reference_1" reference="sys_user" type="reference"/>
+    </element>
+</database>
