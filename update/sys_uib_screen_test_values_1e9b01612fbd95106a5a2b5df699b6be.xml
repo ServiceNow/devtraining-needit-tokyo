@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_uib_screen_test_values">
+    <sys_uib_screen_test_values action="INSERT_OR_UPDATE">
+        <macroponent_config>{
+  "table" : "incident",
+  "sysId" : "0c5f3cece1b12010f877971dea0b1449",
+  "query" : "",
+  "extraParams" : "",
+  "views" : "",
+  "selectedTabIndex" : ""
+}</macroponent_config>
+        <screen display_value="Record default">4a9b01612fbd95106a5a2b5df699b6bb</screen>
+        <sys_class_name>sys_uib_screen_test_values</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-09-07 13:05:16</sys_created_on>
+        <sys_id>1e9b01612fbd95106a5a2b5df699b6be</sys_id>
+        <sys_name/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_uib_screen_test_values_1e9b01612fbd95106a5a2b5df699b6be</sys_update_name>
+    </sys_uib_screen_test_values>
+</record_update>
