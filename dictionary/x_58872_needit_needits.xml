@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="f2013a8e871e1510aea720af8bbb358a" extends="task" label="NeedIts" max_length="40" name="x_58872_needit_needits" type="collection">
+        <element default="bc" label="bc" max_length="10" name="bc" type="string"/>
+        <element choice="1" label="bcState" max_length="10" name="bcstate" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Requested" sequence="0" value="13"/>
+                <element inactive_on_update="false" label="Awaiting Approval" sequence="1" value="14"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="15"/>
+                <element inactive_on_update="false" label="Awaiting Feedback" sequence="3" value="16"/>
+                <element inactive_on_update="false" label="Withdrawn" sequence="4" value="17"/>
+            </choice>
+        </element>
+        <element label="choice" max_length="40" name="choice" type="boolean"/>
+        <element label="Integer_bc" max_length="40" name="integer_bc" type="integer"/>
+    </element>
+</database>
