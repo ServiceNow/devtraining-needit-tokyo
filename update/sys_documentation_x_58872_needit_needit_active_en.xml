@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="active" label="Active(active)" language="en" table="x_58872_needit_needit">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>active</element>
+            <help/>
+            <hint/>
+            <label>Active(active)</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <plural>Active(active)</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>chafik.akmouche</sys_created_by>
+            <sys_created_on>2022-10-06 08:05:49</sys_created_on>
+            <sys_id>2e2d91b21b569990a28ba9f36b4bcbc8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Active(active)</sys_name>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_documentation_x_58872_needit_needit_active_en</sys_update_name>
+            <sys_updated_by>chafik.akmouche</sys_updated_by>
+            <sys_updated_on>2022-10-06 08:05:49</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

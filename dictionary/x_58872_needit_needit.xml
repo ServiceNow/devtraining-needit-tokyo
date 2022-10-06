@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Active" max_length="40" name="u_active" type="boolean"/>
+        <element attributes="edge_encryption_enabled=true" label="Created" max_length="40" name="u_created" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Created By" max_length="40" name="u_created_by" reference="sys_user" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Opened" max_length="40" name="u_opened" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Opened By" max_length="32" name="u_opened_by" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="Updated" max_length="40" name="u_updated" type="glide_date"/>
+        <element attributes="encode_utf8=false" label="Updated By" max_length="32" name="u_updated_by" reference="sys_user" type="reference"/>
+    </element>
+</database>
