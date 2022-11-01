@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="0226ba3e977611107124db24a253afa7" extends="task" label="NeedIt Task" max_length="40" name="x_58872_needit_needit_task" type="collection">
+        <element label="New Due Date" max_length="40" name="u_due_date_1" type="due_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Due Date" max_length="40" name="u_glide_date_time_2" type="glide_date_time"/>
+    </element>
+</database>

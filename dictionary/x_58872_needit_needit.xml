@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="d06f8b87975611107124db24a253af7d" extends="task" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Due Date" max_length="40" name="u_due_date_1" type="due_date"/>
+        <element label="Integer" max_length="40" name="u_integer_2" type="integer"/>
+    </element>
+</database>

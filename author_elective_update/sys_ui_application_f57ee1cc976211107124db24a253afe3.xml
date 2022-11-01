@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application">
+    <sys_ui_application action="DELETE">
+        <active>true</active>
+        <hint/>
+        <name>Needit1</name>
+        <order/>
+        <roles>x_58872_needit.needit1_user</roles>
+        <sys_class_name>sys_ui_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-10 06:33:50</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>f57ee1cc976211107124db24a253afe3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_application_f57ee1cc976211107124db24a253afe3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-10 06:33:50</sys_updated_on>
+    </sys_ui_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a9186eb8db481d989df22f17d4961900</instance_id>
+        <instance_name>dev128746</instance_name>
+        <name>sys_ui_application_f57ee1cc976211107124db24a253afe3</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_application"><sys_ui_application action="INSERT_OR_UPDATE"><active>true</active><hint/><name>Needit1</name><order/><roles>x_58872_needit.needit1_user</roles><sys_class_name>sys_ui_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-10-10 06:33:50</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>f57ee1cc976211107124db24a253afe3</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Needit1</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_ui_application_f57ee1cc976211107124db24a253afe3</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-10-10 06:33:50</sys_updated_on></sys_ui_application></record_update>]]></payload>
+        <payload_hash>-597852818</payload_hash>
+        <record_name>Needit1</record_name>
+        <reverted_from/>
+        <source>daccb92f972ad1107124db24a253afd3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-21 04:35:19</sys_created_on>
+        <sys_id>4ddc7d2f972ad1107124db24a253affc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>183f8d2f8530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-10-21 04:35:19</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>797ee1ccdd621110b1bcbe1ffd7f36e5</update_guid>
+        <update_guid_history>797ee1ccdd621110b1bcbe1ffd7f36e5:-597852818,25b41ddf68e69110ed4d5f264509ed4a:-1932096030,797ee1ccdd621110b1bcbe1ffd7f36e5:-597852818</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-10-31 09:41:23</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_application">sys_ui_application</sys_db_object>
+        <sys_id>006b18dfd89a46c7a1cfbbb8c38e4831</sys_id>
+        <sys_metadata>f57ee1cc976211107124db24a253afe3</sys_metadata>
+        <sys_name>Needit1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_application_f57ee1cc976211107124db24a253afe3</sys_update_name>
+        <sys_update_version display_value="sys_ui_application_f57ee1cc976211107124db24a253afe3">4ddc7d2f972ad1107124db24a253affc</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
