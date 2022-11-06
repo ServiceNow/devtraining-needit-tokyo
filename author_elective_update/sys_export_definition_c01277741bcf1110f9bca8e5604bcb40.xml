@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition">
+    <sys_export_definition action="DELETE">
+        <field_list>number,opened_by.user_name,u_what_needed,u_when_needed,u_other,state,short_description</field_list>
+        <filter/>
+        <name>NeedIt Export</name>
+        <sys_class_name>sys_export_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-06 20:39:35</sys_created_on>
+        <sys_id>c01277741bcf1110f9bca8e5604bcb40</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>NeedIt Export</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_export_definition_c01277741bcf1110f9bca8e5604bcb40</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-06 20:39:35</sys_updated_on>
+        <table_name>x_58872_needit_needit</table_name>
+        <view display_value="Exp_dc01277741bcf1110f9bca8e5604bcb40" name="exp_dc01277741bcf1110f9bca8e5604bcb40">4af273b41bcf1110f9bca8e5604bcbdd</view>
+    </sys_export_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3aa28192db04f450f37acac505961996</instance_id>
+        <instance_name>dev115831</instance_name>
+        <name>sys_export_definition_c01277741bcf1110f9bca8e5604bcb40</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_export_definition"><sys_export_definition action="INSERT_OR_UPDATE"><field_list>number,opened_by.user_name,u_what_needed,u_when_needed,u_other,state,short_description</field_list><filter/><name>NeedIt Export</name><sys_class_name>sys_export_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-06 20:39:35</sys_created_on><sys_id>c01277741bcf1110f9bca8e5604bcb40</sys_id><sys_mod_count>1</sys_mod_count><sys_name>NeedIt Export</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_export_definition_c01277741bcf1110f9bca8e5604bcb40</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-06 20:39:35</sys_updated_on><table_name>x_58872_needit_needit</table_name><view display_value="Exp_dc01277741bcf1110f9bca8e5604bcb40" name="exp_dc01277741bcf1110f9bca8e5604bcb40">4af273b41bcf1110f9bca8e5604bcbdd</view></sys_export_definition></record_update>]]></payload>
+        <payload_hash>926244089</payload_hash>
+        <record_name>NeedIt Export</record_name>
+        <reverted_from/>
+        <source>e652f3741bcf1110f9bca8e5604bcb12</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-06 20:39:35</sys_created_on>
+        <sys_id>42f2f3b41bcf1110f9bca8e5604bcb83</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1844eab88210000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-06 20:39:35</sys_updated_on>
+        <type>Export Definition</type>
+        <update_guid>8af2f3b416cf11102abe16f0fe7cf182</update_guid>
+        <update_guid_history>8af2f3b416cf11102abe16f0fe7cf182:926244089</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-06 20:43:08</sys_created_on>
+        <sys_db_object display_value="" name="sys_export_definition">sys_export_definition</sys_db_object>
+        <sys_id>2cc413120a1a46baa6ead5e69abd5984</sys_id>
+        <sys_metadata>c01277741bcf1110f9bca8e5604bcb40</sys_metadata>
+        <sys_name>NeedIt Export</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_export_definition_c01277741bcf1110f9bca8e5604bcb40</sys_update_name>
+        <sys_update_version display_value="sys_export_definition_c01277741bcf1110f9bca8e5604bcb40">42f2f3b41bcf1110f9bca8e5604bcb83</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
