@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 07:56:08</sys_created_on>
+        <sys_id>30dd8a8997471110846af9271153af7b</sys_id>
+        <sys_name>x_58872_needit_needit.x_58872_needit.needit_user</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_security_acl display_value="x_58872_needit_needit">38dd8a8997471110846af9271153af78</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_30dd8a8997471110846af9271153af7b</sys_update_name>
+        <sys_user_role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">60dd8a4997471110846af9271153af6c</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+</record_update>
