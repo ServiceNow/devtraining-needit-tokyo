@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_section caption="Time Notes" section_id="d6482ae5478711101f5bda97436d4312" sys_domain="global" table="x_58872_needit_needit" version="3" view="admin_view">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_time_2</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 21:50:18</sys_created_on>
+            <sys_id>8189a4d6474711101f5bda97436d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Time Notes" display_value="Time Notes" name="x_58872_needit_needit" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">d6482ae5478711101f5bda97436d4312</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 21:50:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_boolean_4</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 21:50:18</sys_created_on>
+            <sys_id>0589a4d6474711101f5bda97436d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Time Notes" display_value="Time Notes" name="x_58872_needit_needit" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">d6482ae5478711101f5bda97436d4312</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 21:50:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 21:50:18</sys_created_on>
+            <sys_id>8589a4d6474711101f5bda97436d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Time Notes" display_value="Time Notes" name="x_58872_needit_needit" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">d6482ae5478711101f5bda97436d4312</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 21:50:18</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>e2482ae5478711101f5bda97436d439f</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 21:50:18</sys_created_on>
+            <sys_id>0989a4d6474711101f5bda97436d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Time Notes" display_value="Time Notes" name="x_58872_needit_needit" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">d6482ae5478711101f5bda97436d4312</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 21:50:18</sys_updated_on>
+            <sys_user/>
+            <type>chart</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_translated_text_5</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-10 21:50:18</sys_created_on>
+            <sys_id>8989a4d6474711101f5bda97436d4337</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Time Notes" display_value="Time Notes" name="x_58872_needit_needit" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">d6482ae5478711101f5bda97436d4312</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-10 21:50:18</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_chart action="INSERT_OR_UPDATE">
+            <form_field/>
+            <height>300</height>
+            <label/>
+            <report/>
+            <report_field/>
+            <report_qual/>
+            <section caption="Time Notes" display_value="Time Notes" name="x_58872_needit_needit" sys_domain="global" view="b2dc6c709f002200f45c7b9ac42e70e5">d6482ae5478711101f5bda97436d4312</section>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-08 23:08:44</sys_created_on>
+            <sys_id>e2482ae5478711101f5bda97436d439f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2022-11-08 23:08:44</sys_updated_on>
+        </sys_ui_chart>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Time Notes</caption>
+            <header>false</header>
+            <name>x_58872_needit_needit</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2022-11-08 23:08:43</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d6482ae5478711101f5bda97436d4312</sys_id>
+            <sys_name>x_58872_needit_needit</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+            <sys_update_name>sys_ui_section_d6482ae5478711101f5bda97436d4312</sys_update_name>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Admin View" name="admin_view">b2dc6c709f002200f45c7b9ac42e70e5</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
