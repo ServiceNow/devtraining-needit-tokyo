@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field>state</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-11 02:55:14</sys_created_on>
+        <sys_id>fa1fe19a47431110a018f2e7536d430d</sys_id>
+        <sys_name>state</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_policy_action_fa1fe19a47431110a018f2e7536d430d</sys_update_name>
+        <table>x_58872_needit_needit</table>
+        <ui_policy display_value="Make fields Read Only">08be65d647431110a018f2e7536d4330</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
