@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="8e19507847571110111a7af3836d4356" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Test" max_length="40" name="test" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Test 2" max_length="40" name="test_2" type="integer"/>
+    </element>
+</database>
