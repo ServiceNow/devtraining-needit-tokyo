@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <action_status/>
+        <action_template/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description/>
+        <ih_action>false</ih_action>
+        <internal_name>azure_ad_group_management</internal_name>
+        <label_cache/>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>Azure AD group management</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <state>draft</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 16:33:28</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>22f3745d97635110f250bd3ef053af7d</sys_id>
+        <sys_name>Azure AD group management</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_22f3745d97635110f250bd3ef053af7d</sys_update_name>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_variable_value action="delete_multiple" query="document_key=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_hub_step_instance action="delete_multiple" query="action=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_hub_action_input action="delete_multiple" query="model=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_hub_action_output action="delete_multiple" query="model=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_hub_action_status_metadata action="delete_multiple" query="action_type_id=22f3745d97635110f250bd3ef053af7d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_input_22f3745d97635110f250bd3ef053af7d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_input_22f3745d97635110f250bd3ef053af7d"/>
+    <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_action_output_22f3745d97635110f250bd3ef053af7d"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_22f3745d97635110f250bd3ef053af7d"/>
+    <sys_hub_action_plan action="delete_multiple" query="action_id=22f3745d97635110f250bd3ef053af7d"/>
+</record_update>
