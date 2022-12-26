@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_dictionary action="INSERT_OR_UPDATE" element="u_requested_for_email" table="x_58872_needit_needit">
+    <sys_dictionary action="INSERT_OR_UPDATE" element="u_what_needed" table="x_58872_needit_historic_needit_data">
         <active>true</active>
         <array>false</array>
-        <attributes>edge_encryption_enabled=true</attributes>
+        <attributes>edge_encryption_enabled=true,import_attribute_name=What needed</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
         <choice_field/>
         <choice_table/>
-        <column_label>Requested for email</column_label>
+        <column_label>What needed</column_label>
         <comments/>
         <create_roles/>
         <default_value/>
@@ -21,7 +21,7 @@
         <dynamic_creation_script/>
         <dynamic_default_value/>
         <dynamic_ref_qual/>
-        <element>u_requested_for_email</element>
+        <element>u_what_needed</element>
         <element_reference>false</element_reference>
         <foreign_database/>
         <formula/>
@@ -30,7 +30,7 @@
         <internal_type display_value="String">string</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <name>x_58872_needit_needit</name>
+        <name>x_58872_needit_historic_needit_data</name>
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
@@ -46,12 +46,12 @@
         <staged>false</staged>
         <sys_class_name>sys_dictionary</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2017-03-08 03:41:46</sys_created_on>
-        <sys_name>Requested for email</sys_name>
+        <sys_created_on>2022-12-25 05:03:02</sys_created_on>
+        <sys_name>What needed</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_dictionary_x_58872_needit_needit_u_requested_for_email</sys_update_name>
+        <sys_update_name>sys_dictionary_x_58872_needit_historic_needit_data_u_what_needed</sys_update_name>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>
