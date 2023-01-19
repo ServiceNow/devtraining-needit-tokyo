@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_users_groups">
+    <sys_report_users_groups action="INSERT_OR_UPDATE">
+        <group_id/>
+        <report_id display_value="NeedIt Requests by Type">d947e0542fe02110cd1c2ca62799b60a</report_id>
+        <sys_class_name>sys_report_users_groups</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-18 07:31:40</sys_created_on>
+        <sys_id>04ba78d82f242110cd1c2ca62799b60b</sys_id>
+        <sys_name>d947e0542fe02110cd1c2ca62799b60a</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_report_users_groups_04ba78d82f242110cd1c2ca62799b60b</sys_update_name>
+        <user_id display_value="Joe Employee">681ccaf9c0a8016400b98a06818d57c7</user_id>
+    </sys_report_users_groups>
+</record_update>
