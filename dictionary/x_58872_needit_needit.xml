@@ -22,8 +22,6 @@
                 <element inactive_on_update="false" label="Your Department Choice 2" sequence="7" value="your_choice2"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time">
-            <choice/>
-        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
     </element>
 </database>
