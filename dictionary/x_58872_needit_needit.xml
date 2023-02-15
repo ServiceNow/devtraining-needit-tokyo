@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" db_object_id="b5b770dd2f81a1102dc1fe1df699b634" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element attributes="encode_utf8=false" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Requested type" mandatory="true" max_length="40" name="u_requested_type" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resource" sequence="0" value="hr"/>
+                <element inactive_on_update="false" label="Facilities" sequence="1" value="facilities"/>
+                <element inactive_on_update="false" label="Legal" sequence="2" value="legal"/>
+                <element inactive_on_update="false" label="Development" sequence="3" value="development"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="legal 1" label="What neded" mandatory="true" max_length="40" name="u_what_needed" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Human Resource 1" sequence="0" value="hr 1"/>
+                <element inactive_on_update="false" label="Human Resource 2" sequence="1" value="hr 2"/>
+                <element inactive_on_update="false" label="Facilities 1" sequence="2" value="facilities 1"/>
+                <element inactive_on_update="false" label="Facilities 2" sequence="3" value="facilities 2"/>
+                <element inactive_on_update="false" label="Legal 1" sequence="4" value="legal 1"/>
+                <element inactive_on_update="false" label="Legal 2" sequence="5" value="legal 2"/>
+                <element inactive_on_update="false" label="Developer 1" sequence="6" value="developer 1"/>
+                <element inactive_on_update="false" label="Developer 2" sequence="7" value="developer 2"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" label="When needed" mandatory="true" max_length="40" name="u_when_needed" type="glide_date_time"/>
+    </element>
+</database>
