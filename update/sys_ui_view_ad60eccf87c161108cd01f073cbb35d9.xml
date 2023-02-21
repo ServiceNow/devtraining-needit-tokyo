@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_view">
+    <sys_ui_view action="INSERT_OR_UPDATE">
+        <group/>
+        <hidden>false</hidden>
+        <name>mark_josmil_appfiles_lab_exercise</name>
+        <roles/>
+        <sys_class_name>sys_ui_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-02-20 15:11:29</sys_created_on>
+        <sys_id>ad60eccf87c161108cd01f073cbb35d9</sys_id>
+        <sys_name>Mark Josmil AppFiles Lab Exercise</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_view_ad60eccf87c161108cd01f073cbb35d9</sys_update_name>
+        <title>Mark Josmil AppFiles Lab Exercise</title>
+        <user/>
+    </sys_ui_view>
+</record_update>
