@@ -27,7 +27,7 @@
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_db_object_44b86eec97b42110614372121153af08</sys_update_name>
-        <update_access>false</update_access>
+        <update_access>true</update_access>
         <user_role display_value="x_58872_needit.needit_user" name="x_58872_needit.needit_user">fa6962ec97b42110614372121153afa6</user_role>
         <ws_access>true</ws_access>
     </sys_db_object>
