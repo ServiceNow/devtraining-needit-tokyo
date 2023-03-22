@@ -30,10 +30,13 @@
         <script><![CDATA[(function executeRule(current, previous /*null when async*/ ) {
 
     try {
-  
-        var reqdate = NeeditLeadTimeSet(current.u_request_type);
-        gs.addInfoMessage(reqdate);
-        current.u_when_needed = reqdate;
+	
+        var reqdate =new NeeditLeadTimeSet();
+		var dateneeded= reqdate.setLeadtime(current.u_request_type);
+        gs.addInfoMessage(dateneeded);
+        current.u_when_needed = dateneeded;
+		
+		
     } catch (ex) {
         gs.addInfoMessage('error execting script include' + ex);
     }
@@ -46,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8b75325497a1211081a6bb46f053af8b</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>17</sys_mod_count>
         <sys_name>Set Adviced When needed date</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -54,7 +57,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_8b75325497a1211081a6bb46f053af8b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-09 11:09:05</sys_updated_on>
+        <sys_updated_on>2023-03-17 04:35:04</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

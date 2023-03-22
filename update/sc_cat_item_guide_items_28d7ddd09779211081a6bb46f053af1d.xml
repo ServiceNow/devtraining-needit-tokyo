@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:c093d59c9739211081a6bb46f053af22=Yes^IO:6bc3159c9739211081a6bb46f053af3b=hp_elitebook^EQ</condition>
+        <guide display_value="New Joinee Needs">fc43d59c9739211081a6bb46f053af00</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Windows Surface Pro 4">ae44f5804f889200086eeed18110c73f</item>
+        <order/>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 12:57:26</sys_created_on>
+        <sys_id>28d7ddd09779211081a6bb46f053af1d</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>ae44f5804f889200086eeed18110c73f</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_28d7ddd09779211081a6bb46f053af1d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:58:03</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>

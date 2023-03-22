@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_58872_needit.NeeditLeadTimeSet</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description>Set Lead Time to set when needed date based on Request type hr, facility, legal</description>
+        <name>NeeditLeadTimeSet</name>
+        <script><![CDATA[function NeeditLeadTimeSet(request_type)
+{
+	var today = new GlideDateTime();
+		
+        var leadedtime;
+        if (request_type == 'hr') {
+            today.addDaysLocalTime(3);
+            //leadedtime = today.getDisplayValue();
+            return today;
+        } else if (request_type == 'legal') {
+            today.addDaysLocalTime(5);
+            //leadedtime = today.getDisplayValue();
+            return today;
+        } else if (request_type == 'facilities') {
+            today.addDaysLocalTime(1);
+            //leadedtime = today.getDisplayValue();
+            return today;
+        } else {
+            return 'nothing';
+        }
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-09 08:41:08</sys_created_on>
+        <sys_id>11c86a589761211081a6bb46f053afe4</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_name>NeeditLeadTimeSet</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_include_11c86a589761211081a6bb46f053afe4</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 05:07:51</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_script_include_11c86a589761211081a6bb46f053afe4</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;package_private&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_58872_needit.NeeditLeadTimeSet&lt;/api_name&gt;&lt;caller_access/&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Set Lead Time to set when needed date based on Request type hr, facility, legal&lt;/description&gt;&lt;name&gt;NeeditLeadTimeSet&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function NeeditLeadTimeSet(request_type)
+{
+	var today = new GlideDateTime();
+		
+        var leadedtime;
+        if (request_type == 'hr') {
+            today.addDaysLocalTime(3);
+            //leadedtime = today.getDisplayValue();
+            return today;
+        } else if (request_type == 'legal') {
+            today.addDaysLocalTime(5);
+            //leadedtime = today.getDisplayValue();
+            return today;
+        } else if (request_type == 'facilities') {
+            today.addDaysLocalTime(1);
+            //leadedtime = today.getDisplayValue();
+            return today;
+        } else {
+            return 'nothing';
+        }
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-09 08:41:08&lt;/sys_created_on&gt;&lt;sys_id&gt;11c86a589761211081a6bb46f053afe4&lt;/sys_id&gt;&lt;sys_mod_count&gt;14&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeeditLeadTimeSet&lt;/sys_name&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy&gt;read&lt;/sys_policy&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_11c86a589761211081a6bb46f053afe4&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-15 05:07:51&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>127816888</payload_hash>
+        <record_name>NeeditLeadTimeSet</record_name>
+        <reverted_from/>
+        <source>f2e767a32fc921100169a1fef699b654</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 05:07:51</sys_created_on>
+        <sys_id>dfc2f45a97eda51081a6bb46f053afa9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186e3aadca60000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 05:07:51</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>d7c2f45ad4eda51077cdd2e7f75b0da9</update_guid>
+        <update_guid_history>d7c2f45ad4eda51077cdd2e7f75b0da9:127816888,e8a7c5f084696110c7fe57c2d6eae684:72304774,0757c1b0b2696110295cb1966e0fc8db:788173932,ef78a42c91292110b3c33794aeedb95c:-1145022174,b218ac2cb529211069fc7dfba95ea9f1:-1840220841,83e7eca860292110f5f2aec9cb323a7d:-631888006,b4a29f10a02521102c6bb48e991fb3d0:-1840220841,f5929f1007252110d7170f617b6a523e:-1145022174,a2cb879881e121104c603af6f1bcbca1:-1840220841,677b079845e1211033c5d400671d172e:904595087,9010cbdc1ca1211026054788b361a883:528427148,e5008bdc99a12110bd747763032d4bf7:-1378885625,b31f7e5cf7a12110e751c32b037e2102:-357108545,4efe729c95a12110aa799649e71dbae0:-1647903739,3d8d7e1c1da12110716de265a9379bf0:-1551331704,41593e1875a12110a3725a8ffff27651:1930647864,31d8bed4c6a12110afe0bfb544f99cf2:-1443454980,0e287ad47da1211002f0e2113bdcea5c:-2059144752,e91a2a587461211095fccfb0bb599b2f:-1408642789</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-15 05:21:52</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>7d68d7983670476ea707376f81670fc4</sys_id>
+        <sys_metadata>11c86a589761211081a6bb46f053afe4</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeeditLeadTimeSet</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_script_include_11c86a589761211081a6bb46f053afe4</sys_update_name>
+        <sys_update_version display_value="sys_script_include_11c86a589761211081a6bb46f053afe4">dfc2f45a97eda51081a6bb46f053afa9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-15 05:21:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
