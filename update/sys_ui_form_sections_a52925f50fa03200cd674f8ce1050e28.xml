@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<record_update>
+<?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_form_sections form_id="a52925f50fa03200cd674f8ce1050e28" sys_domain="global" table="x_58872_needit_needit" version="3">
         <sys_ui_form_section action="INSERT_OR_UPDATE">
             <position>0</position>
@@ -42,6 +41,20 @@
             <sys_ui_section caption="Statistics" display_value="Statistics" name="x_58872_needit_needit" sys_domain="global" view="Default view">040b61390fa03200cd674f8ce1050e07</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2017-01-26 20:50:56</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-03-16 12:07:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0e5cdf2a976921104a187bc11153af2a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_58872_needit_needit" name="x_58872_needit_needit" sys_domain="global" view="Default view">a52925f50fa03200cd674f8ce1050e28</sys_ui_form>
+            <sys_ui_section caption="Approval Notes" display_value="Approval Notes" name="x_58872_needit_needit" sys_domain="global" view="Default view">0a5cdf2a976921104a187bc11153af25</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-03-16 12:07:04</sys_updated_on>
         </sys_ui_form_section>
         <sys_ui_form action="INSERT_OR_UPDATE">
             <name>x_58872_needit_needit</name>

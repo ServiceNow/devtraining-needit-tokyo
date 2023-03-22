@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Create a User Request">27401c6597e525104a187bc11153af26</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-12 18:49:10</sys_created_on>
+        <sys_id>490294e597e525104a187bc11153af9d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create a User Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_490294e597e525104a187bc11153af9d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 18:49:10</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a9c58b3ddba469d442b321c4059619fb</instance_id>
+        <instance_name>dev147351</instance_name>
+        <name>sc_cat_item_catalog_490294e597e525104a187bc11153af9d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Create a User Request">27401c6597e525104a187bc11153af26</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-12 18:49:10</sys_created_on><sys_id>490294e597e525104a187bc11153af9d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Create a User Request</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_catalog_490294e597e525104a187bc11153af9d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-12 18:49:10</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-762902101</payload_hash>
+        <record_name>Service Catalog.Create a User Request</record_name>
+        <reverted_from/>
+        <source>a832b537971961104a187bc11153afe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-12 18:49:10</sys_created_on>
+        <sys_id>890294e597e525104a187bc11153afa0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186d727b9f40000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 18:49:10</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>010294e5a5e525109c9edd3ffd2875a0</update_guid>
+        <update_guid_history>010294e5a5e525109c9edd3ffd2875a0:-762902101</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Create a User Request">17d2d02997e525104a187bc11153af0a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-12 18:52:52</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>6cb8883a042c493b9a891760a4bbbbf1</sys_id>
+        <sys_metadata>490294e597e525104a187bc11153af9d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Create a User Request</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Create a Request for NeedIt Fullfillment">27401c6597e525104a187bc11153af26</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_490294e597e525104a187bc11153af9d</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_490294e597e525104a187bc11153af9d">890294e597e525104a187bc11153afa0</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-12 18:52:52</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

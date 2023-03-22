@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="catalog_script_client">
+    <catalog_script_client action="DELETE">
+        <active>true</active>
+        <applies_catalog>true</applies_catalog>
+        <applies_extended>false</applies_extended>
+        <applies_req_item>false</applies_req_item>
+        <applies_sc_task>false</applies_sc_task>
+        <applies_target_record>false</applies_target_record>
+        <applies_to>item</applies_to>
+        <cat_item display_value="Create a Request for NeedIt Fullfillment">27401c6597e525104a187bc11153af26</cat_item>
+        <cat_variable>IO:61725ce597e525104a187bc11153af2a</cat_variable>
+        <condition/>
+        <description/>
+        <field/>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>NeedIt onChange on RP</name>
+        <order/>
+        <script><![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    // Modified the if to return if the newValue == oldValue to avoid
+    // unecessary trips to the server
+if (isLoading && !g_form.isNewRecord() || newValue === '' || newValue == oldValue) {
+        return;
+    }
+
+    // Instantiate the GetEmailAddress Script Include 
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    // Specify the getEmail method
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    // Pass the Requested for sys_id
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+    // Send the request to the server
+    getEmailAddr.getXML(populateEmailField);
+
+
+    // When the response is back from the server
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.clearValue('u_requested_for_email');
+        g_form.setValue('u_requested_for_email',emailFromScriptInclude);
+    }
+   
+}]]></script>
+        <sys_class_name>catalog_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 12:34:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2cd1a7ae976921104a187bc11153afee</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>NeedIt onChange on RP</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>catalog_script_client_2cd1a7ae976921104a187bc11153afee</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 12:46:01</sys_updated_on>
+        <table/>
+        <type>onChange</type>
+        <ui_type>0</ui_type>
+        <variable_set/>
+        <view/>
+    </catalog_script_client>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a9c58b3ddba469d442b321c4059619fb</instance_id>
+        <instance_name>dev147351</instance_name>
+        <name>catalog_script_client_2cd1a7ae976921104a187bc11153afee</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="catalog_script_client"&gt;&lt;catalog_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_catalog&gt;true&lt;/applies_catalog&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;applies_req_item&gt;false&lt;/applies_req_item&gt;&lt;applies_sc_task&gt;false&lt;/applies_sc_task&gt;&lt;applies_target_record&gt;false&lt;/applies_target_record&gt;&lt;applies_to&gt;item&lt;/applies_to&gt;&lt;cat_item display_value="Create a Request for NeedIt Fullfillment"&gt;27401c6597e525104a187bc11153af26&lt;/cat_item&gt;&lt;cat_variable&gt;IO:61725ce597e525104a187bc11153af2a&lt;/cat_variable&gt;&lt;condition/&gt;&lt;description/&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;NeedIt onChange on RP&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[function onChange(control, oldValue, newValue, isLoading, isTemplate) {
+    // Modified the if to return if the newValue == oldValue to avoid
+    // unecessary trips to the server
+if (isLoading &amp;&amp; !g_form.isNewRecord() || newValue === '' || newValue == oldValue) {
+        return;
+    }
+
+    // Instantiate the GetEmailAddress Script Include 
+    var getEmailAddr = new GlideAjax('GetEmailAddress');
+    // Specify the getEmail method
+    getEmailAddr.addParam('sysparm_name','getEmail');
+    // Pass the Requested for sys_id
+    getEmailAddr.addParam('sysparm_userID', g_form.getValue('u_requested_for'));
+    // Send the request to the server
+    getEmailAddr.getXML(populateEmailField);
+
+
+    // When the response is back from the server
+    function populateEmailField(response){
+        // Extract the email address from the response, clear any value from the email field, 
+        // set new value in the email field
+        var emailFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+        g_form.clearValue('u_requested_for_email');
+        g_form.setValue('u_requested_for_email',emailFromScriptInclude);
+    }
+   
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;catalog_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-03-16 12:34:41&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;2cd1a7ae976921104a187bc11153afee&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;NeedIt onChange on RP&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;catalog_script_client_2cd1a7ae976921104a187bc11153afee&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-03-16 12:46:01&lt;/sys_updated_on&gt;&lt;table/&gt;&lt;type&gt;onChange&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;variable_set/&gt;&lt;view/&gt;&lt;/catalog_script_client&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1736601755</payload_hash>
+        <record_name>NeedIt onChange on RP</record_name>
+        <reverted_from/>
+        <source>a832b537971961104a187bc11153afe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 12:46:01</sys_created_on>
+        <sys_id>f0452b6297a921104a187bc11153afd5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>186ea74b2fb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 12:46:01</sys_updated_on>
+        <type>Catalog Client Scripts</type>
+        <update_guid>f8452b623fa9211098571f61bd3869d4</update_guid>
+        <update_guid_history>f8452b623fa9211098571f61bd3869d4:1736601755,53b4e762a8a921100470b89ed1dbef3a:-217643048,6b946762a5a92110afe6883f6b77b686:-631613742,4484276285a9211070955d4c31a5131c:136182825,1f542722d0a92110c3198712d79f51e3:369255087,3aa227ee49692110dce56dce3ddb65bb:-1839167548</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt onChange on RP">da75e3a297a921104a187bc11153afff</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-16 12:46:57</sys_created_on>
+        <sys_db_object display_value="" name="catalog_script_client">catalog_script_client</sys_db_object>
+        <sys_id>27d311411b7b4a169329acbc08f2dd91</sys_id>
+        <sys_metadata>2cd1a7ae976921104a187bc11153afee</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt onChange on RP</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>catalog_script_client_2cd1a7ae976921104a187bc11153afee</sys_update_name>
+        <sys_update_version display_value="catalog_script_client_2cd1a7ae976921104a187bc11153afee">f0452b6297a921104a187bc11153afd5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-16 12:46:57</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
