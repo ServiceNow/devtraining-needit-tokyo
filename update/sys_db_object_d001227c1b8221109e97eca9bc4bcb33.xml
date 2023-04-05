@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>true</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>true</create_access_controls>
+        <delete_access>true</delete_access>
+        <is_extendable>false</is_extendable>
+        <label>Needit</label>
+        <live_feed_enabled>true</live_feed_enabled>
+        <name>x_58872_needit_shruti_custom_table</name>
+        <number_ref display_value="NI">0592a23c1b8221109e97eca9bc4bcbbf</number_ref>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>sredevops_usr05</sys_created_by>
+        <sys_created_on>2023-04-04 17:54:01</sys_created_on>
+        <sys_id>d001227c1b8221109e97eca9bc4bcb33</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Needit</sys_name>
+        <sys_package display_value="Shruti_NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Shruti_NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_object_d001227c1b8221109e97eca9bc4bcb33</sys_update_name>
+        <sys_updated_by>sredevops_usr05</sys_updated_by>
+        <sys_updated_on>2023-04-04 17:56:42</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role display_value="x_58872_needit.shruti_custom_table_user" name="x_58872_needit.shruti_custom_table_user">edf1ae7c1b8221109e97eca9bc4bcb0e</user_role>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>

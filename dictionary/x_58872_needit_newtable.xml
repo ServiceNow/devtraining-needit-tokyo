@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="e99a49811b0e21109e97eca9bc4bcb3a" label="NewTable" max_length="40" name="x_58872_needit_newtable" type="collection">
+        <element label="Newfield1" max_length="40" name="newfield1" type="integer"/>
+    </element>
+</database>
