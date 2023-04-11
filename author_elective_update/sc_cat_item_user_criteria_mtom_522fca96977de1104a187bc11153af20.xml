@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="If Your Account is in Inactive State">4f6e8e56977de1104a187bc11153afca</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:07:04</sys_created_on>
+        <sys_id>522fca96977de1104a187bc11153af20</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>If Your Account is in Inactive State.Any User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_522fca96977de1104a187bc11153af20</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:07:04</sys_updated_on>
+        <user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a9c58b3ddba469d442b321c4059619fb</instance_id>
+        <instance_name>dev147351</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_522fca96977de1104a187bc11153af20</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom"><sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE"><sc_cat_item display_value="If Your Account is in Inactive State">4f6e8e56977de1104a187bc11153afca</sc_cat_item><sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-27 22:07:04</sys_created_on><sys_id>522fca96977de1104a187bc11153af20</sys_id><sys_mod_count>0</sys_mod_count><sys_name>If Your Account is in Inactive State.Any User</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_user_criteria_mtom_522fca96977de1104a187bc11153af20</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-27 22:07:04</sys_updated_on><user_criteria display_value="Any User">fb1166d64fff0200086eeed18110c7ab</user_criteria></sc_cat_item_user_criteria_mtom></record_update>]]></payload>
+        <payload_hash>1137191563</payload_hash>
+        <record_name>If Your Account is in Inactive State.Any User</record_name>
+        <reverted_from/>
+        <source>a832b537971961104a187bc11153afe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:07:04</sys_created_on>
+        <sys_id>d62fca96977de1104a187bc11153af30</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187251c4ca50000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:07:04</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>5e2fca96a77de110f9186a6189e5d92f</update_guid>
+        <update_guid_history>5e2fca96a77de110f9186a6189e5d92f:1137191563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="If Your Account is in Inactive State.Any User">044f0e96977de1104a187bc11153afc0</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:07:27</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>1d9801010d084f8ca22763bb5e0307c9</sys_id>
+        <sys_metadata>522fca96977de1104a187bc11153af20</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>If Your Account is in Inactive State.Any User</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_522fca96977de1104a187bc11153af20</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_522fca96977de1104a187bc11153af20">d62fca96977de1104a187bc11153af30</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:07:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

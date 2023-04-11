@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="If Your Account is in Inactive State">4f6e8e56977de1104a187bc11153afca</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:07:04</sys_created_on>
+        <sys_id>5e2fca96977de1104a187bc11153af0f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.If Your Account is in Inactive State</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_5e2fca96977de1104a187bc11153af0f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:07:04</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>a9c58b3ddba469d442b321c4059619fb</instance_id>
+        <instance_name>dev147351</instance_name>
+        <name>sc_cat_item_catalog_5e2fca96977de1104a187bc11153af0f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="If Your Account is in Inactive State">4f6e8e56977de1104a187bc11153afca</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-03-27 22:07:04</sys_created_on><sys_id>5e2fca96977de1104a187bc11153af0f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.If Your Account is in Inactive State</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sc_cat_item_catalog_5e2fca96977de1104a187bc11153af0f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-03-27 22:07:04</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>-716914458</payload_hash>
+        <record_name>Service Catalog.If Your Account is in Inactive State</record_name>
+        <reverted_from/>
+        <source>a832b537971961104a187bc11153afe7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:07:04</sys_created_on>
+        <sys_id>1e2fca96977de1104a187bc11153af12</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187251c4be10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:07:04</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>922fca96177de1104fe9421b92bbac12</update_guid>
+        <update_guid_history>922fca96177de1104fe9421b92bbac12:-716914458</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.If Your Account is in Inactive State">004f0e96977de1104a187bc11153afa9</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:07:27</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>2475e588fcb545d2bb4afbcc0b6198e9</sys_id>
+        <sys_metadata>5e2fca96977de1104a187bc11153af0f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.If Your Account is in Inactive State</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">4f6e8e56977de1104a187bc11153afca</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_5e2fca96977de1104a187bc11153af0f</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_5e2fca96977de1104a187bc11153af0f">1e2fca96977de1104a187bc11153af12</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:07:27</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_list">
+    <sys_ux_list action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="NeedIt">7c739e9a977de1104a187bc11153af09</category>
+        <columns>number,priority,state,assigned_to,short_description,sys_class_name</columns>
+        <condition/>
+        <configuration display_value="NeedIt_menu_config">7c739e9a977de1104a187bc11153af07</configuration>
+        <group_by_column/>
+        <groups/>
+        <hide_cell_filter>false</hide_cell_filter>
+        <hide_checkbox_hover>true</hide_checkbox_hover>
+        <hide_column_filtering>false</hide_column_filtering>
+        <hide_column_grouping>false</hide_column_grouping>
+        <hide_column_resizing>false</hide_column_resizing>
+        <hide_column_sorting>false</hide_column_sorting>
+        <hide_drag_and_drop>true</hide_drag_and_drop>
+        <hide_empty_state_image>false</hide_empty_state_image>
+        <hide_first_page>false</hide_first_page>
+        <hide_header>false</hide_header>
+        <hide_highlight_content>false</hide_highlight_content>
+        <hide_highlighted_values>false</hide_highlighted_values>
+        <hide_inline_editing>false</hide_inline_editing>
+        <hide_last_page>false</hide_last_page>
+        <hide_last_refreshed_text>false</hide_last_refreshed_text>
+        <hide_links>false</hide_links>
+        <hide_list_actions>false</hide_list_actions>
+        <hide_menu_button>false</hide_menu_button>
+        <hide_next_page>false</hide_next_page>
+        <hide_option_to_save_as>false</hide_option_to_save_as>
+        <hide_pages>false</hide_pages>
+        <hide_pagination>false</hide_pagination>
+        <hide_panel_advanced>false</hide_panel_advanced>
+        <hide_panel_button>false</hide_panel_button>
+        <hide_panel_condition_delete>false</hide_panel_condition_delete>
+        <hide_panel_footer>false</hide_panel_footer>
+        <hide_panel_restore>false</hide_panel_restore>
+        <hide_personalization>false</hide_personalization>
+        <hide_previous_page>false</hide_previous_page>
+        <hide_quick_edit>false</hide_quick_edit>
+        <hide_range>false</hide_range>
+        <hide_record_count_badge>false</hide_record_count_badge>
+        <hide_reference_links>false</hide_reference_links>
+        <hide_refresh_button>false</hide_refresh_button>
+        <hide_row_count>false</hide_row_count>
+        <hide_row_selector>false</hide_row_selector>
+        <hide_rows_per_page_selector>false</hide_rows_per_page_selector>
+        <hide_select_all>false</hide_select_all>
+        <hide_sharing_button>false</hide_sharing_button>
+        <hide_title>false</hide_title>
+        <highlight_content_color/>
+        <highlight_content_pattern/>
+        <list_attributes/>
+        <max_characters>4000</max_characters>
+        <order>50</order>
+        <override_word_wrap_user_pref>false</override_word_wrap_user_pref>
+        <roles/>
+        <sys_class_name>sys_ux_list</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:25:49</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>78739e9a977de1104a187bc11153af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>All</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_list_78739e9a977de1104a187bc11153af0c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:25:49</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <title>All</title>
+        <view/>
+        <word_wrap>false</word_wrap>
+    </sys_ux_list>
+</record_update>

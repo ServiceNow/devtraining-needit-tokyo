@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="NeedIt Config">04735e9ad17de1104f924fc2a0824527</app_config>
+        <description/>
+        <event_mappings>[ {&#13;
+  "eventMappingId" : "7c4b7a6d-da76-4cfb-9561-c14388a97faf",&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.NAV_ITEM_SELECTED_RELAY_8515f3e853031010ffa5ddeeff7b1297",&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "route" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "route" ]&#13;
+            }&#13;
+          },&#13;
+          "fields" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fields" ]&#13;
+            }&#13;
+          },&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          },&#13;
+          "redirect" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "redirect" ]&#13;
+            }&#13;
+          },&#13;
+          "passiveNavigation" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "passiveNavigation" ]&#13;
+            }&#13;
+          },&#13;
+          "title" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "title" ]&#13;
+            }&#13;
+          },&#13;
+          "multiInstField" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "multiInstField" ]&#13;
+            }&#13;
+          },&#13;
+          "external" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "external" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "d119fc74-0541-4ad1-b58d-58329f7787fe",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "0a1eecc8-902b-4713-921f-db4fff537b3d",&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.CONTENT_UPDATED_RELAY_8515f3e853031010ffa5ddeeff7b1297",&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.CONTENT_UPDATED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "75f3815fb0d9c38bb6df1626a0f284c4"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "0c83f019-e1f4-4fc6-9961-d66457b08e75",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "4396d8ea-245b-4956-ad7b-06572cd3ba77",&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.MODAL_SELECTED_RELAY_8515f3e853031010ffa5ddeeff7b1297",&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "modalId" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "modalId" ]&#13;
+            }&#13;
+          },&#13;
+          "showModal" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "showModal" ]&#13;
+            }&#13;
+          },&#13;
+          "displayOptions" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "displayOptions" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "b40e5e12-cb9a-4727-afda-cbc616bca1a0",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+} ]</event_mappings>
+        <macroponent display_value="Simple List">8515f3e853031010ffa5ddeeff7b1297</macroponent>
+        <macroponent_config>{&#13;
+  "title" : "",&#13;
+  "label" : "",&#13;
+  "bare" : true,&#13;
+  "scrollable" : "y",&#13;
+  "headerLevel" : "1",&#13;
+  "interceptNotifications" : false,&#13;
+  "propagateNotifications" : false&#13;
+}</macroponent_config>
+        <name>Simple List Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="Simple List">84735e9af87de1102ee0b0dea4dd7426</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:25:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0c735e9a487de1104c49e1326574da24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Simple List Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_0c735e9a487de1104c49e1326574da24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:25:47</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c735e9a487de1104c49e1326574da24"/>
+</record_update>

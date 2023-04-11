@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_screen">
+    <sys_ux_screen action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <app_config display_value="NeedIt Config">04735e9ad17de1104f924fc2a0824527</app_config>
+        <description/>
+        <event_mappings>[ {&#13;
+  "eventMappingId" : "ckdeecffptcaaaaaajddghheejjiaajjbbaaiim",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.ROW_CLICKED",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.ROW_CLICKED",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "route" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "route" ]&#13;
+            }&#13;
+          },&#13;
+          "fields" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fields" ]&#13;
+            }&#13;
+          },&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          },&#13;
+          "redirect" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "redirect" ]&#13;
+            }&#13;
+          },&#13;
+          "passiveNavigation" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "passiveNavigation" ]&#13;
+            }&#13;
+          },&#13;
+          "title" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "title" ]&#13;
+            }&#13;
+          },&#13;
+          "multiInstField" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "multiInstField" ]&#13;
+            }&#13;
+          },&#13;
+          "external" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "external" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "ckdeecffptcaaaaaaiddghheerazxbbiieii",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "803f44dc-cc7f-4a32-8c63-a388517013c7",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.NAV_ITEM_SELECTED_RELAY_2c08111d0fc21010036a83fa68767ef6",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.NAV_ITEM_SELECTED_RELAY_2c08111d0fc21010036a83fa68767ef6",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.NAV_ITEM_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "route" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "route" ]&#13;
+            }&#13;
+          },&#13;
+          "fields" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "fields" ]&#13;
+            }&#13;
+          },&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          },&#13;
+          "redirect" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "redirect" ]&#13;
+            }&#13;
+          },&#13;
+          "passiveNavigation" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "passiveNavigation" ]&#13;
+            }&#13;
+          },&#13;
+          "title" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "title" ]&#13;
+            }&#13;
+          },&#13;
+          "multiInstField" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "multiInstField" ]&#13;
+            }&#13;
+          },&#13;
+          "external" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "external" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "8b82bf18e5276c8e423b6e4e0889b463"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "4aa065ee-5b71-4363-a8ab-0110185f3032",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "dec1afda-d6df-4358-9623-52d595bdb7c7",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.CONTENT_UPDATED_RELAY_2c08111d0fc21010036a83fa68767ef6",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.CONTENT_UPDATED_RELAY_2c08111d0fc21010036a83fa68767ef6",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.CONTENT_UPDATED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "params" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "params" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "75f3815fb0d9c38bb6df1626a0f284c4"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "c0d740b1-064d-415f-aebb-d6c0f6e1a268",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+}, {&#13;
+  "eventMappingId" : "5fb0ee34-b3d2-4233-8a59-d699b79ba68b",&#13;
+  "isConfiguration" : false,&#13;
+  "offRowStorageId" : null,&#13;
+  "sourceEventApiName" : "sn_uib_base_aw.MODAL_SELECTED_RELAY_2c08111d0fc21010036a83fa68767ef6",&#13;
+  "sourceEventDefinition" : {&#13;
+    "apiName" : "sn_uib_base_aw.MODAL_SELECTED_RELAY_2c08111d0fc21010036a83fa68767ef6",&#13;
+    "id" : null,&#13;
+    "type" : "UXEVENT"&#13;
+  },&#13;
+  "sourceEventSysId" : null,&#13;
+  "targets" : [ {&#13;
+    "broker" : null,&#13;
+    "clientScript" : null,&#13;
+    "declarativeAction" : null,&#13;
+    "event" : {&#13;
+      "apiName" : "sn_canvas_core.MODAL_SELECTED",&#13;
+      "payload" : {&#13;
+        "type" : "MAP_CONTAINER",&#13;
+        "container" : {&#13;
+          "modalId" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "modalId" ]&#13;
+            }&#13;
+          },&#13;
+          "showModal" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "showModal" ]&#13;
+            }&#13;
+          },&#13;
+          "displayOptions" : {&#13;
+            "type" : "EVENT_PAYLOAD_BINDING",&#13;
+            "binding" : {&#13;
+              "address" : [ "displayOptions" ]&#13;
+            }&#13;
+          }&#13;
+        }&#13;
+      },&#13;
+      "sysId" : "882eed4091382d3a41f1bb3f382ae089"&#13;
+    },&#13;
+    "operation" : null,&#13;
+    "targetId" : "c879c9d9-0194-4efb-9783-0d5cd5c5b02a",&#13;
+    "type" : "EVENT"&#13;
+  } ]&#13;
+} ]</event_mappings>
+        <macroponent display_value="List">2c08111d0fc21010036a83fa68767ef6</macroponent>
+        <macroponent_config/>
+        <name>List Default</name>
+        <order>0</order>
+        <parent_macroponent display_value="Agent Workspace App Shell">c276387cc331101080d6d3658940ddd2</parent_macroponent>
+        <required_translations>[]</required_translations>
+        <rollback_screen/>
+        <screen_condition/>
+        <screen_type display_value="List">00735e9ad57de11004a28aec38086b22</screen_type>
+        <sys_class_name>sys_ux_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-27 22:25:46</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>cc735e9ab77de1105077c27152443f24</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>List Default</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ux_screen_cc735e9ab77de1105077c27152443f24</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-27 22:25:46</sys_updated_on>
+    </sys_ux_screen>
+    <sys_translated_text action="delete_multiple" query="documentkey=cc735e9ab77de1105077c27152443f24"/>
+</record_update>
