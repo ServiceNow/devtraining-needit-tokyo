@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="DELETE">
+        <active>true</active>
+        <copied_from/>
+        <description>Confirm that the following UI actions are visible: Update
+With a failure timeout of 5 Seconds</description>
+        <display_name>UI Action Visibility</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>3</order>
+        <step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:04:28</sys_created_on>
+        <sys_id>19664406975ea11079907bc11153af04</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_atf_step_19664406975ea11079907bc11153af04</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:04:28</sys_updated_on>
+        <table>incident</table>
+        <test display_value="Validate Email Incident">3035c882975ea11079907bc11153afd9</test>
+        <timeout>1970-01-01 00:00:05</timeout>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="DELETE" query="document_key=19664406975ea11079907bc11153af04"/>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>19664406975ea11079907bc11153af04</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:04:28</sys_created_on>
+        <sys_id>03d6c846975ea11079907bc11153af0a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:04:28</sys_updated_on>
+        <value>incident</value>
+        <variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>19664406975ea11079907bc11153af04</document_key>
+        <order>300</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:04:28</sys_created_on>
+        <sys_id>4fd6c846975ea11079907bc11153af09</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:04:28</sys_updated_on>
+        <value/>
+        <variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>19664406975ea11079907bc11153af04</document_key>
+        <order>50</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:04:28</sys_created_on>
+        <sys_id>c7d6c046975ea11079907bc11153af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:04:28</sys_updated_on>
+        <value>standard_ui</value>
+        <variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable>
+    </sys_variable_value>
+    <sys_variable_value action="DELETE">
+        <document>sys_atf_step</document>
+        <document_key>19664406975ea11079907bc11153af04</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:04:28</sys_created_on>
+        <sys_id>cbd6c046975ea11079907bc11153af9a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:04:28</sys_updated_on>
+        <value>42df02e20a0a0b340080e61b551f2909</value>
+        <variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable>
+    </sys_variable_value>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>3ed07a63db7c81107527d7c8f496190e</instance_id>
+        <instance_name>dev120571</instance_name>
+        <name>sys_atf_step_19664406975ea11079907bc11153af04</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step"><sys_atf_step action="INSERT_OR_UPDATE"><active>true</active><copied_from/><description>Confirm that the following UI actions are visible: Update
+With a failure timeout of 5 Seconds</description><display_name>UI Action Visibility</display_name><inputs/><mugshots_cache_json/><notes/><order>3</order><step_config display_value="UI Action Visibility">d8fdf5e10b1022009cfdc71437673adc</step_config><sys_class_name>sys_atf_step</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:04:28</sys_created_on><sys_id>19664406975ea11079907bc11153af04</sys_id><sys_mod_count>0</sys_mod_count><sys_name>UI Action Visibility</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_atf_step_19664406975ea11079907bc11153af04</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:04:28</sys_updated_on><table>incident</table><test display_value="Validate Email Incident">3035c882975ea11079907bc11153afd9</test><timeout>1970-01-01 00:00:05</timeout><warning_message/></sys_atf_step><sys_variable_value action="delete_multiple" query="document_key=19664406975ea11079907bc11153af04"/><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>19664406975ea11079907bc11153af04</document_key><order>100</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:04:28</sys_created_on><sys_id>03d6c846975ea11079907bc11153af0a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:04:28</sys_updated_on><value>incident</value><variable display_value="Table">ba62b4075320220002c6435723dc34b9</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>19664406975ea11079907bc11153af04</document_key><order>300</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:04:28</sys_created_on><sys_id>4fd6c846975ea11079907bc11153af09</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:04:28</sys_updated_on><value/><variable display_value="Not visible">6619c7aa5320220002c6435723dc34e2</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>19664406975ea11079907bc11153af04</document_key><order>50</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:04:28</sys_created_on><sys_id>c7d6c046975ea11079907bc11153af9a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:04:28</sys_updated_on><value>standard_ui</value><variable display_value="Form UI">bc43e004c76733005e5c45b881c26046</variable></sys_variable_value><sys_variable_value action="INSERT_OR_UPDATE"><document>sys_atf_step</document><document_key>19664406975ea11079907bc11153af04</document_key><order>200</order><sys_class_name>sys_variable_value</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-20 14:04:28</sys_created_on><sys_id>cbd6c046975ea11079907bc11153af9a</sys_id><sys_mod_count>0</sys_mod_count><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-20 14:04:28</sys_updated_on><value>42df02e20a0a0b340080e61b551f2909</value><variable display_value="Visible">56e6bee65320220002c6435723dc34b9</variable></sys_variable_value></record_update>]]></payload>
+        <payload_hash>1643074435</payload_hash>
+        <record_name>UI Action Visibility</record_name>
+        <reverted_from/>
+        <source>1806b2179742211079907bc11153afb4</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:04:28</sys_created_on>
+        <sys_id>87d6c846975ea11079907bc11153af0c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1879efb16610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:04:28</sys_updated_on>
+        <type>Test Step</type>
+        <update_guid>cfd6c846d95ea1109ba778895e09300b</update_guid>
+        <update_guid_history>cfd6c846d95ea1109ba778895e09300b:1643074435</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-20 14:09:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_atf_step">sys_atf_step</sys_db_object>
+        <sys_id>909da81b046e41c594888ebc7f9792f1</sys_id>
+        <sys_metadata>19664406975ea11079907bc11153af04</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>UI Action Visibility</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_atf_step_19664406975ea11079907bc11153af04</sys_update_name>
+        <sys_update_version display_value="sys_atf_step_19664406975ea11079907bc11153af04">87d6c846975ea11079907bc11153af0c</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-20 14:09:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
