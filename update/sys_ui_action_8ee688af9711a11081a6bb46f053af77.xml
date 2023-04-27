@@ -35,7 +35,8 @@
     try {
         var inputs = {};
         inputs['needit_task'] = current; // GlideRecord of table: x_58872_needit_needit_task 
-        inputs['reason'] = 'Overdue task closed manually'; // String 
+        inputs['reason'] = 'Overdue task closed manually';
+		
 
         // Start Asynchronously: Uncomment to run in background. Code snippet will not have access to outputs.
         // sn_fd.FlowAPI.getRunner().subflow('x_802222_needit_sp.handle_overdue_needit_tasks').inBackground().withInputs(inputs).run();
@@ -46,7 +47,7 @@
 
         // Get Outputs:
         // Note: outputs can only be retrieved when executing synchronously.
-        var follow_up_task = outputs['follow_up_task']; // Reference
+        var follow_up_task = outputs.follow_up_task; // Reference
         action.setRedirectURL(follow_up_task);
         action.setReturnURL(current);
 		
@@ -67,7 +68,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>8ee688af9711a11081a6bb46f053af77</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Close Overdue NeedIt Task</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -75,7 +76,7 @@
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ui_action_8ee688af9711a11081a6bb46f053af77</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-06 13:04:28</sys_updated_on>
+        <sys_updated_on>2023-04-24 15:47:06</sys_updated_on>
         <table>x_58872_needit_needit_task</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

@@ -19,10 +19,11 @@ Getroles: function(userid)
 		gr.query();
 		while(gr.next())
 			{
-				rolelist.push(gr.role);
+				rolelist.push(gr.getValue('role'));
 				
 			}
-		return 'sys_idIN'+rolelist.toString();
+		
+		return 'sys_idIN'+ rolelist.toString();
 },
 
     type: 'GetRolesofUser'
@@ -31,13 +32,13 @@ Getroles: function(userid)
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-22 14:52:06</sys_created_on>
         <sys_id>1edafee897bd611081a6bb46f053affb</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>GetRolesofUser</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_script_include_1edafee897bd611081a6bb46f053affb</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-22 14:52:28</sys_updated_on>
+        <sys_updated_on>2023-04-17 11:41:15</sys_updated_on>
     </sys_script_include>
 </record_update>
