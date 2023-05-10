@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_reconciliation_definition">
+    <cmdb_reconciliation_definition action="DELETE">
+        <active>true</active>
+        <applies_to>cmdb_ci_hardware</applies_to>
+        <attributes/>
+        <condition/>
+        <discovery_source>ServiceNow</discovery_source>
+        <name>Hardware rule by ServiceNow</name>
+        <null_update/>
+        <priority>100</priority>
+        <sys_class_name>cmdb_reconciliation_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-02 15:19:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>611b02399766e11081a6bb46f053af5e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware rule by ServiceNow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>cmdb_reconciliation_definition_611b02399766e11081a6bb46f053af5e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-02 15:19:23</sys_updated_on>
+    </cmdb_reconciliation_definition>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>cmdb_reconciliation_definition_611b02399766e11081a6bb46f053af5e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="cmdb_reconciliation_definition"><cmdb_reconciliation_definition action="INSERT_OR_UPDATE"><active>true</active><applies_to>cmdb_ci_hardware</applies_to><attributes/><condition/><discovery_source>ServiceNow</discovery_source><name>Hardware rule by ServiceNow</name><null_update/><priority>100</priority><sys_class_name>cmdb_reconciliation_definition</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-02 15:19:23</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>611b02399766e11081a6bb46f053af5e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Hardware rule by ServiceNow</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>cmdb_reconciliation_definition_611b02399766e11081a6bb46f053af5e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-02 15:19:23</sys_updated_on></cmdb_reconciliation_definition></record_update>]]></payload>
+        <payload_hash>833269430</payload_hash>
+        <record_name>Hardware rule by ServiceNow</record_name>
+        <reverted_from/>
+        <source>d3d43bcc97aa211081a6bb46f053af58</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-02 15:19:23</sys_created_on>
+        <sys_id>a11b02399766e11081a6bb46f053af61</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187dd0c001e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-02 15:19:23</sys_updated_on>
+        <type>Reconciliation Definition</type>
+        <update_guid>a51b02391966e11015fb3565d6a6bf60</update_guid>
+        <update_guid_history>a51b02391966e11015fb3565d6a6bf60:833269430</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Hardware rule by ServiceNow">5e2a29f797aee11081a6bb46f053aff8</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-08 18:03:23</sys_created_on>
+        <sys_db_object display_value="" name="cmdb_reconciliation_definition">cmdb_reconciliation_definition</sys_db_object>
+        <sys_id>14a559aba4064a64854ebfedf3a3e990</sys_id>
+        <sys_metadata>611b02399766e11081a6bb46f053af5e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Hardware rule by ServiceNow</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>cmdb_reconciliation_definition_611b02399766e11081a6bb46f053af5e</sys_update_name>
+        <sys_update_version display_value="cmdb_reconciliation_definition_611b02399766e11081a6bb46f053af5e">a11b02399766e11081a6bb46f053af61</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-08 18:03:23</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

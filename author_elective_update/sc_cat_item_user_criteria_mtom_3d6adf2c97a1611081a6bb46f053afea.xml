@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="DELETE">
+        <sc_cat_item display_value="Needit Request">1af95f6897a1611081a6bb46f053af59</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 06:50:44</sys_created_on>
+        <sys_id>3d6adf2c97a1611081a6bb46f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Request.Users with 'Admin' Role</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3d6adf2c97a1611081a6bb46f053afea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 06:50:44</sys_updated_on>
+        <user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sc_cat_item_user_criteria_mtom_3d6adf2c97a1611081a6bb46f053afea</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_user_criteria_mtom">
+    <sc_cat_item_user_criteria_mtom action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="Needit Request">1af95f6897a1611081a6bb46f053af59</sc_cat_item>
+        <sys_class_name>sc_cat_item_user_criteria_mtom</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-10 06:50:44</sys_created_on>
+        <sys_id>3d6adf2c97a1611081a6bb46f053afea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Request.Users with 'Admin' Role</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3d6adf2c97a1611081a6bb46f053afea</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-10 06:50:44</sys_updated_on>
+        <user_criteria display_value="Users with 'Admin' Role">cb8e06e9d7103100f2d224837e610339</user_criteria>
+    </sc_cat_item_user_criteria_mtom>
+</record_update>]]></payload>
+        <payload_hash>1079683173</payload_hash>
+        <record_name>Needit Request.Users with 'Admin' Role</record_name>
+        <reverted_from/>
+        <source>5bf58850976e211081a6bb46f053af51</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 13:47:18</sys_created_on>
+        <sys_id>f706c090976e211081a6bb46f053af4a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c2f7e62a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 13:47:18</sys_updated_on>
+        <type>Catalog Item Available for</type>
+        <update_guid>b306c090406e21104adbf96ac270af4a</update_guid>
+        <update_guid_history>b306c090406e21104adbf96ac270af4a:0,ed65c8dc762e2110c3b310f6f915a84f:1300605119,40ea5f4c4ce62110b1a1a2597fd137c7:0,3ee91f888de62110fe6102e2c9e31bfc:1300605119,5837df044ae62110af9c916b57a6f1c4:0,af66938099e62110716a14ba266d5fa0:1300605119,f96adf2c31a161101bbbf211345753ed:-1548382133</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Needit Request.Users with 'Admin' Role">9765dce197ea211081a6bb46f053af0e</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-01 12:06:50</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_user_criteria_mtom">sc_cat_item_user_criteria_mtom</sys_db_object>
+        <sys_id>33143e5169a040908d750d19e0b40100</sys_id>
+        <sys_metadata>3d6adf2c97a1611081a6bb46f053afea</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Needit Request.Users with 'Admin' Role</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_user_criteria_mtom_3d6adf2c97a1611081a6bb46f053afea</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_user_criteria_mtom_3d6adf2c97a1611081a6bb46f053afea">f706c090976e211081a6bb46f053af4a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-01 12:06:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

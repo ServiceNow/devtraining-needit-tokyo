@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="DELETE">
+        <field>number</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-04 11:24:21</sys_created_on>
+        <sys_id>e668a7d6972e211081a6bb46f053afbe</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_db_view_table_field_e668a7d6972e211081a6bb46f053afbe</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-04 11:24:21</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <view_table display_value="x_58872_needit_needit">aa8bed2b9716211081a6bb46f053af1d</view_table>
+    </sys_db_view_table_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_db_view_table_field_e668a7d6972e211081a6bb46f053afbe</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field"><sys_db_view_table_field action="INSERT_OR_UPDATE"><field>number</field><sys_class_name>sys_db_view_table_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-05-04 11:24:21</sys_created_on><sys_id>e668a7d6972e211081a6bb46f053afbe</sys_id><sys_mod_count>0</sys_mod_count><sys_name>number</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_db_view_table_field_e668a7d6972e211081a6bb46f053afbe</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-05-04 11:24:21</sys_updated_on><table>x_58872_needit_needit</table><view_table display_value="x_58872_needit_needit">aa8bed2b9716211081a6bb46f053af1d</view_table></sys_db_view_table_field></record_update>]]></payload>
+        <payload_hash>-2120363701</payload_hash>
+        <record_name>number</record_name>
+        <reverted_from/>
+        <source>d3d43bcc97aa211081a6bb46f053af58</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-04 11:24:21</sys_created_on>
+        <sys_id>0e782bd6972e211081a6bb46f053af72</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187e68188ab0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-04 11:24:21</sys_updated_on>
+        <type>View Field</type>
+        <update_guid>42782bd6c02e21104ba6c42179ccea72</update_guid>
+        <update_guid_history>42782bd6c02e21104ba6c42179ccea72:-2120363701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-05-04 13:03:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table_field">sys_db_view_table_field</sys_db_object>
+        <sys_id>389214834f6e4a069c9efb35db022921</sys_id>
+        <sys_metadata>e668a7d6972e211081a6bb46f053afbe</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>number</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="x_58872_needit_needit">aa8bed2b9716211081a6bb46f053af1d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_field_e668a7d6972e211081a6bb46f053afbe</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_field_e668a7d6972e211081a6bb46f053afbe">0e782bd6972e211081a6bb46f053af72</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-05-04 13:03:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
