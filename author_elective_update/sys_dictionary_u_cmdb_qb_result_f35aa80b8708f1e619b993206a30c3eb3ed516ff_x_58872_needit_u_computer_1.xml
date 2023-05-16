@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_dictionary action="DELETE" element="x_58872_needit_u_computer_1" table="u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff">
+        <active>true</active>
+        <array>false</array>
+        <attributes>encode_utf8=false</attributes>
+        <audit>false</audit>
+        <calculation/>
+        <choice>0</choice>
+        <choice_field/>
+        <choice_table/>
+        <column_label>Computer 1</column_label>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>x_58872_needit_u_computer_1</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <internal_type display_value="Reference">reference</internal_type>
+        <mandatory>false</mandatory>
+        <max_length>32</max_length>
+        <name>u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff</name>
+        <next_element/>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="cmdb_ci_computer">cmdb_ci_computer</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_dictionary</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 18:19:32</sys_created_on>
+        <sys_id>071efc739706611081a6bb46f053af99</sys_id>
+        <sys_name>Computer 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_dictionary_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff_x_58872_needit_u_computer_1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 18:19:32</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type/>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_dictionary>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_dictionary_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff_x_58872_needit_u_computer_1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_dictionary action="INSERT_OR_UPDATE" element="x_58872_needit_u_computer_1" table="u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff"><active>true</active><array>false</array><attributes>encode_utf8=false</attributes><audit>false</audit><calculation/><choice>0</choice><choice_field/><choice_table/><column_label>Computer 1</column_label><comments/><create_roles/><default_value/><defaultsort/><delete_roles/><dependent/><dependent_on_field/><display>false</display><dynamic_creation>false</dynamic_creation><dynamic_creation_script/><dynamic_default_value/><dynamic_ref_qual/><element>x_58872_needit_u_computer_1</element><element_reference>false</element_reference><foreign_database/><formula/><function_definition/><function_field>false</function_field><internal_type display_value="Reference">reference</internal_type><mandatory>false</mandatory><max_length>32</max_length><name>u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff</name><next_element/><primary>false</primary><read_only>false</read_only><read_roles/><reference display_value="" name="cmdb_ci_computer">cmdb_ci_computer</reference><reference_cascade_rule/><reference_floats>false</reference_floats><reference_key/><reference_qual/><reference_qual_condition/><reference_type/><spell_check>false</spell_check><staged>false</staged><sys_class_name>sys_dictionary</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-13 18:19:32</sys_created_on><sys_id>071efc739706611081a6bb46f053af99</sys_id><sys_name>Computer 1</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_dictionary_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff_x_58872_needit_u_computer_1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-13 18:19:32</sys_updated_on><table_reference>false</table_reference><text_index>false</text_index><unique>false</unique><use_dependent_field>false</use_dependent_field><use_dynamic_default>false</use_dynamic_default><use_reference_qualifier>simple</use_reference_qualifier><virtual>false</virtual><virtual_type/><widget/><write_roles/><xml_view>false</xml_view></sys_dictionary></record_update>]]></payload>
+        <payload_hash>-689563024</payload_hash>
+        <record_name>u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff.Computer 1</record_name>
+        <reverted_from/>
+        <source>ca18c36897fd611081a6bb46f053af71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 18:19:32</sys_created_on>
+        <sys_id>031ef8b39706611081a6bb46f053af0d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877bd8188a0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 18:19:32</sys_updated_on>
+        <type>Dictionary</type>
+        <update_guid>871ef8b357066110f65bd724314bb70c</update_guid>
+        <update_guid_history>871ef8b357066110f65bd724314bb70c:-689563024,dbfdb4b395066110e0d189ecf8aae9da:1512659260,07fdb4b3ef06611001ea1856c41d6176:-689563024,57ed74b3bd0661107a86a36e9805ef08:1512659260,beed34b359066110e170423d365e9ba3:-689563024,4ccdbc73da066110bddfe79bca4b99f7:1512659260,dbbdbc7393066110896b30a66b30bbd0:-689563024</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 18:19:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_dictionary">sys_dictionary</sys_db_object>
+        <sys_id>6f130c57bc264900b6a16afff7191240</sys_id>
+        <sys_metadata>071efc739706611081a6bb46f053af99</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Computer 1</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_dictionary_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff_x_58872_needit_u_computer_1</sys_update_name>
+        <sys_update_version display_value="sys_dictionary_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff_x_58872_needit_u_computer_1">031ef8b39706611081a6bb46f053af0d</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 18:19:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ws_query_parameter">
+    <sys_ws_query_parameter action="INSERT_OR_UPDATE">
+        <example_value>number=NXXXX!</example_value>
+        <name>ExplicitQuery</name>
+        <required>false</required>
+        <short_description>Enter query in field values pairs</short_description>
+        <sys_class_name>sys_ws_query_parameter</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-14 12:52:15</sys_created_on>
+        <sys_id>98acbc0497dea11081a6bb46f053af7e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ExplicitQuery</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ws_query_parameter_98acbc0497dea11081a6bb46f053af7e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 12:52:15</sys_updated_on>
+        <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
+    </sys_ws_query_parameter>
+</record_update>

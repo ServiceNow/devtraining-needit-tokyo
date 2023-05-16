@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+    <element attributes="hasLabels=true, email_client=true" audit="true" db_object_id="0749c7522fb4a1100169a1fef699b62c" extends="task" label="NeedIt" max_length="40" name="x_58872_needit_needit" type="collection">
+        <element label="Color" max_length="40" name="color" type="color"/>
+        <element attributes="target_field=u_target,target_threshold_colors=0:tomato;50:khaki;90:lightgreen" label="% Complete" max_length="15" name="complete" type="percent_complete"/>
+        <element attributes="encode_utf8=false" dependent="u_requested_for" dependent_on_field="u_requested_for" label="Roles" max_length="32" name="roles" reference="sys_user_role" reference_floats="true" reference_qual="javascript: new GetRolesofUser().Getroles(current.u_requested_for)" type="reference" use_dependent_field="true" use_reference_qualifier="advanced"/>
+        <element label="Stage" max_length="80" name="stage" type="workflow"/>
         <element attributes="edge_encryption_enabled=true" label="Other" max_length="40" name="u_other" type="string"/>
-        <element label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference"/>
+        <element attributes="ref_auto_completer=AJAXTableCompleter, ref_ac_columns=email;first_name;manager,ref_ac_columns_search=true,tree_picker=true" label="Requested for" mandatory="true" max_length="32" name="u_requested_for" reference="sys_user" type="reference" use_dependent_field="true"/>
         <element attributes="edge_encryption_enabled=true" label="Requested for email" mandatory="true" max_length="40" name="u_requested_for_email" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="legal" label="Request type" mandatory="true" max_length="40" name="u_request_type" type="string">
             <choice>
@@ -10,6 +14,7 @@
                 <element inactive_on_update="false" label="Human Resources" sequence="2" value="hr"/>
             </choice>
         </element>
+        <element label="Target" max_length="20" name="u_target" type="decimal"/>
         <element attributes="edge_encryption_enabled=true" choice="3" default="hr1" label="What needed" mandatory="true" max_length="40" name="u_what_needed" type="string">
             <choice>
                 <element inactive_on_update="false" label="Legal 1" sequence="0" value="legal1"/>

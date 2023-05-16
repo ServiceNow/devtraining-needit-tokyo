@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_web_service">
+    <sys_web_service action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <function_name>GetList</function_name>
+        <name>NeeditList</name>
+        <scoped_name>x_58872_needit_NeeditList</scoped_name>
+        <script><![CDATA[(function scriptedWebServiceOperation(request, response) {
+    var query = request.query;
+    var needgr = new GlideRecord('x_58872_needit_needit');
+    needgr.addEncodedQuery(query);
+    gs.info('needitlist webservice' + query);
+    needgr.query();
+	var needs=[];
+	
+    while (needgr.next()) {
+		var need={};
+        need.number = needgr.getDisplayValue('number');
+		need.requestor=needgr.getDisplayValue('u_requested_for');
+		needs.push(need);
+		
+    }
+	response.output=JSON.stringify(needs);
+})(request, response);]]></script>
+        <short_description/>
+        <sys_class_name>sys_web_service</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-06 13:10:56</sys_created_on>
+        <sys_id>ded3524397ee211081a6bb46f053af6b</sys_id>
+        <sys_mod_count>13</sys_mod_count>
+        <sys_name>NeeditList</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_web_service_ded3524397ee211081a6bb46f053af6b</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-10 18:04:25</sys_updated_on>
+        <wsdl>https://dev36074.service-now.com/x_58872_needit_NeeditList.do?WSDL</wsdl>
+        <wsdl_compliance>false</wsdl_compliance>
+    </sys_web_service>
+</record_update>

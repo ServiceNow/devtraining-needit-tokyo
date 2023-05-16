@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_template">
+    <sys_template action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <global>true</global>
+        <group/>
+        <groups/>
+        <link_element/>
+        <name>Needit Generic Template</name>
+        <next/>
+        <next_child display_value="Procure Task">55475da39792211081a6bb46f053af01</next_child>
+        <roles/>
+        <short_description>This is short description added from template</short_description>
+        <show_on_template_bar>true</show_on_template_bar>
+        <stand_alone>false</stand_alone>
+        <sys_class_name>sys_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-25 10:43:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>b4784de79712211081a6bb46f053af93</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Needit Generic Template</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_template_b4784de79712211081a6bb46f053af93</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-08 04:32:36</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <template>active=true^approval=not requested^opened_at=2023-04-25 16:11:42^opened_by=6816f79cc0a8016401c5a33be04be441^priority=4^state=13^short_description=This is short description added from template^EQ</template>
+        <user display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</user>
+        <view/>
+    </sys_template>
+</record_update>

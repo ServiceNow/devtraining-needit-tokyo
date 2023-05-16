@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>New Query Results</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Query Results</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Query Builder Results" name="Query Builder Results">c4736777757011108c8b143dd0c59f6c</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 18:18:41</sys_created_on>
+        <sys_id>22ed7c3797c2611081a6bb46f053af80</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Results</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_wizard_answer_22ed7c3797c2611081a6bb46f053af80</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 18:18:41</sys_updated_on>
+        <table/>
+        <target_url>x_58872_needit_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_wizard_answer_22ed7c3797c2611081a6bb46f053af80</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>New Query Results</answer><button_label/><dependent_value/><element/><name>Query Results</name><next_question/><order>100</order><payload_name/><question display_value="Query Builder Results" name="Query Builder Results">c4736777757011108c8b143dd0c59f6c</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-04-13 18:18:41</sys_created_on><sys_id>22ed7c3797c2611081a6bb46f053af80</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Query Results</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_wizard_answer_22ed7c3797c2611081a6bb46f053af80</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-04-13 18:18:41</sys_updated_on><table/><target_url>x_58872_needit_u_cmdb_qb_result_f35aa80b8708f1e619b993206a30c3eb3ed516ff.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>1286413993</payload_hash>
+        <record_name>Query Results</record_name>
+        <reverted_from/>
+        <source>ca18c36897fd611081a6bb46f053af71</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-13 18:18:41</sys_created_on>
+        <sys_id>62ed7c3797c2611081a6bb46f053af82</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1877bd750660000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-13 18:18:41</sys_updated_on>
+        <type>Answer</type>
+        <update_guid>a6ed7c378fc26110007331557f0fd181</update_guid>
+        <update_guid_history>a6ed7c378fc26110007331557f0fd181:1286413993</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-14 10:38:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>4883406db916484c9c32c9621d42aa90</sys_id>
+        <sys_metadata>22ed7c3797c2611081a6bb46f053af80</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Query Results</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="Query Builder Results">c4736777757011108c8b143dd0c59f6c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_22ed7c3797c2611081a6bb46f053af80</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_22ed7c3797c2611081a6bb46f053af80">62ed7c3797c2611081a6bb46f053af82</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-14 10:38:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

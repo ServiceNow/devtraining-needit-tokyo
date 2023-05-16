@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_guide_items">
+    <sc_cat_item_guide_items action="INSERT_OR_UPDATE">
+        <condition>IO:c00519109779211081a6bb46f053af5b=Yes^IO:d5369d109779211081a6bb46f053af77=andriod^EQ</condition>
+        <guide display_value="New Joinee Needs">fc43d59c9739211081a6bb46f053af00</guide>
+        <ignore_mandatory_eval>false</ignore_mandatory_eval>
+        <item display_value="Samsung Galaxy S7 Edge">0c61f0c510247200964f77ffeec6c499</item>
+        <order/>
+        <quantity>1</quantity>
+        <requested_by/>
+        <requested_for/>
+        <show_quantity>false</show_quantity>
+        <sys_class_name>sc_cat_item_guide_items</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-21 12:58:52</sys_created_on>
+        <sys_id>3a089dd09779211081a6bb46f053af67</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>0c61f0c510247200964f77ffeec6c499</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sc_cat_item_guide_items_3a089dd09779211081a6bb46f053af67</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-21 12:58:52</sys_updated_on>
+        <use_sc_layout>true</use_sc_layout>
+    </sc_cat_item_guide_items>
+</record_update>
