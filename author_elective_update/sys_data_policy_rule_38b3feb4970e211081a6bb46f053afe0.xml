@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>u_requested_for_email</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 19:11:42</sys_created_on>
+        <sys_data_policy display_value="">e444757f9755e11081a6bb46f053af5f</sys_data_policy>
+        <sys_id>38b3feb4970e211081a6bb46f053afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for_email</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy_rule_38b3feb4970e211081a6bb46f053afe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 19:11:42</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_data_policy_rule>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_data_policy_rule_38b3feb4970e211081a6bb46f053afe0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>u_requested_for_email</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-04 19:11:42</sys_created_on>
+        <sys_data_policy display_value="">e444757f9755e11081a6bb46f053af5f</sys_data_policy>
+        <sys_id>38b3feb4970e211081a6bb46f053afe0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for_email</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy_rule_38b3feb4970e211081a6bb46f053afe0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-04 19:11:42</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_data_policy_rule>
+</record_update>]]></payload>
+        <payload_hash>-1970211159</payload_hash>
+        <record_name>u_requested_for_email</record_name>
+        <reverted_from/>
+        <source>5bf58850976e211081a6bb46f053af51</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 13:47:20</sys_created_on>
+        <sys_id>54160490976e211081a6bb46f053af22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c2f7ed940000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 13:47:20</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>101604900a6e21108ed1be9fc5368622</update_guid>
+        <update_guid_history>101604900a6e21108ed1be9fc5368622:0,b2650cdc442e21102ee9e4ee0e6074f6:823652551,6cea9f4c82e621100b1f7e359b97ddb7:0,58f9df8867e621100e157ae0aa0f5f49:823652551,b837534420e62110d02034d2e02e6a4e:0,f8761780c8e621102047113449dc9a36:823652551,6fb3feb48c0e21101b35e2202ccfd448:974155347</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 12:06:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>0e2d38e5134d4b7c88e74a2a39c95a84</sys_id>
+        <sys_metadata>38b3feb4970e211081a6bb46f053afe0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_requested_for_email</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">e444757f9755e11081a6bb46f053af5f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_38b3feb4970e211081a6bb46f053afe0</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_38b3feb4970e211081a6bb46f053afe0">54160490976e211081a6bb46f053af22</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 12:06:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

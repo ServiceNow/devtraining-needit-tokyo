@@ -1,5 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report">
-    <sys_report action="INSERT_OR_UPDATE">
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_report_drill">
+    <sys_report_drill action="INSERT_OR_UPDATE">
         <additional_groupby/>
         <aggregate>COUNT</aggregate>
         <aggregation_source>no_override</aggregation_source>
@@ -35,7 +35,7 @@
         <created_by_user display_value="Narendranath Reddy">6816f79cc0a8016401c5a33be04be441</created_by_user>
         <custom_chart_size>false</custom_chart_size>
         <custom_chart_title_position>false</custom_chart_title_position>
-        <custom_config>{"transforms":[{"transform":{"transform":"Reference","name":"chart-subjects"}}]}</custom_config>
+        <custom_config/>
         <decimal_precision>2</decimal_precision>
         <description/>
         <direction>minimize</direction>
@@ -45,8 +45,8 @@
         <donut_width_percent>30</donut_width_percent>
         <end_time/>
         <exp_report_attrs>true</exp_report_attrs>
-        <field>t_u_request_type</field>
-        <field_list>t_number,p_number,t_assignment_group,p_assignment_group,t_assigned_to,p_assigned_to</field_list>
+        <field>t_u_requested_for</field>
+        <field_list>number,opened_at,short_description,caller_id,priority,state,category,assignment_group,assigned_to,sys_updated_on,sys_updated_by</field_list>
         <filter/>
         <formatting_configuration>{"table":"incident","stringFormattingProperties":{},"durationFormattingProperties":{},"dateFormattingProperties":{},"numberFormattingProperties":{}}</formatting_configuration>
         <from/>
@@ -76,7 +76,7 @@
         <others>true</others>
         <page_hdrftr/>
         <pivot_expanded>true</pivot_expanded>
-        <report_drilldown display_value="Group by Requestor">38c6f70e9736655081a6bb46f053af3f</report_drilldown>
+        <report_drilldown/>
         <report_source display_value="Needit and Tasks (Needitandneedittask)">72f700a29722611081a6bb46f053af06</report_source>
         <roles/>
         <row/>
@@ -102,20 +102,20 @@
         <start_time/>
         <style_config/>
         <sumfield/>
-        <sys_class_name>sys_report</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-05-04 13:44:09</sys_created_on>
-        <sys_id>8a7848a29722611081a6bb46f053af64</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_name>Needit and Task</sys_name>
+        <sys_class_name>sys_report_drill</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 04:04:01</sys_created_on>
+        <sys_id>38c6f70e9736655081a6bb46f053af3f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Group by Requestor</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_report_8a7848a29722611081a6bb46f053af64</sys_update_name>
+        <sys_update_name>sys_report_drill_38c6f70e9736655081a6bb46f053af3f</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
         <sys_updated_on>2023-05-16 04:04:01</sys_updated_on>
         <table>x_58872_needit_needit_needittask</table>
-        <title>Needit and Task</title>
+        <title>Group by Requestor</title>
         <title_horizontal_alignment>center</title_horizontal_alignment>
         <title_vertical_alignment>top</title_vertical_alignment>
         <to/>
@@ -155,5 +155,5 @@
         <y_axis_title_color display_value="Black">65b30218a9fe3dba0120df8611520d97</y_axis_title_color>
         <y_axis_title_size>12</y_axis_title_size>
         <y_axis_to/>
-    </sys_report>
+    </sys_report_drill>
 </record_update>

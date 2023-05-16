@@ -1,23 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
     <sys_ui_action action="INSERT_OR_UPDATE">
         <action_name>fetchincidents</action_name>
-        <active>false</active>
+        <active>true</active>
         <client>true</client>
         <client_script_v2><![CDATA[function onClick(g_form) {
 
 }]]></client_script_v2>
         <comments/>
-        <condition>!current.u_requested_for.nil()</condition>
+        <condition>current.canWrite()</condition>
         <form_action>true</form_action>
         <form_button>false</form_button>
         <form_button_v2>false</form_button_v2>
-        <form_context_menu>true</form_context_menu>
-        <form_link>false</form_link>
+        <form_context_menu>false</form_context_menu>
+        <form_link>true</form_link>
         <form_menu_button_v2>false</form_menu_button_v2>
         <form_style/>
         <format_for_configurable_workspace>false</format_for_configurable_workspace>
         <hint/>
-        <isolate_script>true</isolate_script>
+        <isolate_script>false</isolate_script>
         <list_action>false</list_action>
         <list_banner_button>false</list_banner_button>
         <list_button>false</list_button>
@@ -27,10 +27,10 @@
         <list_save_with_form_button>false</list_save_with_form_button>
         <list_style/>
         <messages/>
-        <name>Incidents for Requestor</name>
-        <onclick>fetch()</onclick>
+        <name>FetchUserIncidents</name>
+        <onclick>PullRequestorIncs()</onclick>
         <order>100</order>
-        <script><![CDATA[function fetch() {
+        <script><![CDATA[function PullRequestorIncs() {
     var confirmation = confirm('Do you want to fetch all the incidents for the current caller?');
     if (confirmation) {
         gsftSubmit(null, g_form.getFormElement(), 'fetchincidents');
@@ -45,54 +45,55 @@ if (typeof window == 'undefined'&&current.u_requested_for.changes()) {
 
 function restcall() {
     var request = new sn_ws.RESTMessageV2();
-    request.setQueryParameter('sysparm_query', 'caller_id=' + current.u_requested_for);	
+    request.setQueryParameter('sysparm_query', 'caller_id=' + current.u_requested_for);
     request.setQueryParameter('sysparm_fields', 'number,category');
     //request.setQueryParameter('sysparm_limit',10);
-	request.setLogLevel('all');
+
+    request.setLogLevel('all');
     request.setEndpoint('https://dev36074.service-now.com/api/now/table/incident');
     request.setHttpMethod('GET');
-
     //Eg. UserName="admin", Password="admin" for this code sample.
-    var user = 'admin';
+    var user = 'narendranath.reddy';
     var password = 'N@ni2023';
-
     request.setBasicAuth(user, password);
     request.setRequestHeader("Accept", "application/json");
-
     var response = request.execute();
     var responsebody = response.getBody();
     var objJSON = JSON.parse(responsebody);
-    var incidents = '';
-	
+    var results = [];
+    var finalresult = {};
     for (var i = 0; i < objJSON.result.length; i++) {
-        incidents = incidents + 'number: ' + objJSON.result[i].number + 'category: ' + objJSON.result[i].category;
-		
+        var incident = {};
+        incident['number'] = objJSON.result[i].number;
+        incident['category'] = objJSON.result[i].category;
+        results.push(incident);
     }
-    current.description = incidents;
-	current.short_description=objJSON.result[1].number;
+    finalresult.incidents = results;
+    current.description = JSON.stringify(finalresult);
     current.update();
+    action.setRedirectURL(current);
 }]]></script>
         <show_insert>false</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
         <show_update>true</show_update>
         <sys_class_name>sys_ui_action</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2023-04-29 11:38:47</sys_created_on>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 15:02:45</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>523835b097eea11081a6bb46f053afc3</sys_id>
-        <sys_mod_count>46</sys_mod_count>
-        <sys_name>Incidents for Requestor</sys_name>
+        <sys_id>215d061697b6a55081a6bb46f053af39</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>FetchUserIncidents</sys_name>
         <sys_overrides/>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
-        <sys_update_name>sys_ui_action_523835b097eea11081a6bb46f053afc3</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-05-02 17:52:08</sys_updated_on>
+        <sys_update_name>sys_ui_action_215d061697b6a55081a6bb46f053af39</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 15:07:18</sys_updated_on>
         <table>x_58872_needit_needit</table>
         <ui11_compatible>true</ui11_compatible>
-        <ui16_compatible>true</ui16_compatible>
+        <ui16_compatible>false</ui16_compatible>
     </sys_ui_action>
 </record_update>

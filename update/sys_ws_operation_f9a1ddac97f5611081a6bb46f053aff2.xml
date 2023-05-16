@@ -12,19 +12,23 @@
 
     var body = request.body.data.detail;
     var shortdes = body.short_description;
+    var assignment_group = body.assignment_group;
     if (!(shortdes)) {
-		var err= new sn_ws_err.ServiceError();
-		err.setStatus(400);
-		err.setMessage('Short description cannot be null');
-		err.setDetail('Short description cannot be null');
-       return err;
+        var err = new sn_ws_err.ServiceError();
+        err.setStatus(400);
+        err.setMessage('Short description cannot be null');
+        err.setDetail('Short description cannot be null');
+        return err;
     } else {
         var gr = new GlideRecord('x_58872_needit_needit');
         gr.addQuery('number', neednumber);
         gr.query();
         while (gr.next()) {
             gr.setValue('short_description', shortdes + gr.short_description);
+            gr.assignment_group.setDisplayValue(assignment_group);
+			try{
             gr.update();
+			}catch(exc){response.setBody(exc.message);}
             var resp = {
                 'number': gr.number, //resp['number']=gr.number
                 'requested for': gr.u_requested_for //resp['requested for']=gr..u_requested_for
@@ -48,14 +52,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2023-03-22 07:08:57</sys_created_on>
         <sys_id>f9a1ddac97f5611081a6bb46f053aff2</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>needitput (v2)</sys_name>
         <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
         <sys_policy/>
         <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
         <sys_update_name>sys_ws_operation_f9a1ddac97f5611081a6bb46f053aff2</sys_update_name>
         <sys_updated_by>narendranath.reddy</sys_updated_by>
-        <sys_updated_on>2023-05-06 14:20:10</sys_updated_on>
+        <sys_updated_on>2023-05-16 12:16:44</sys_updated_on>
         <web_service_definition display_value="needit">4478a26d9769251081a6bb46f053afa3</web_service_definition>
         <web_service_version display_value="v2">e5a119ac97f5611081a6bb46f053af18</web_service_version>
     </sys_ws_operation>

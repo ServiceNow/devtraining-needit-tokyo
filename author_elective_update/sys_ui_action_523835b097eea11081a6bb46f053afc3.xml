@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="DELETE">
+        <action_name>fetchincidents</action_name>
+        <active>true</active>
+        <client>true</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments/>
+        <condition>current.canWrite()</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>false</form_context_menu>
+        <form_link>false</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <format_for_configurable_workspace>false</format_for_configurable_workspace>
+        <hint/>
+        <isolate_script>true</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages/>
+        <name>Incidents for Requestor</name>
+        <onclick>fetch()</onclick>
+        <order>100</order>
+        <script><![CDATA[function fetch() {
+    var confirmation = confirm('Do you want to fetch all the incidents for the current caller?');
+    if (confirmation) {
+        gsftSubmit(null, g_form.getFormElement(), 'fetchincidents');
+    } else if (!confirmation) {
+        return;
+    }
+
+}
+if (typeof window == 'undefined') {
+    restcall();
+}
+
+function restcall() {
+    var request = new sn_ws.RESTMessageV2();
+    request.setQueryParameter('sysparm_query', 'caller_id=' + current.u_requested_for);
+    request.setQueryParameter('sysparm_fields', 'number,category');
+    //request.setQueryParameter('sysparm_limit',10);
+    request.setLogLevel('all');
+    request.setEndpoint('https://dev36074.service-now.com/api/now/table/incident');
+    request.setHttpMethod('GET');
+    //Eg. UserName="admin", Password="admin" for this code sample.
+    var user = 'narendranath.reddy';
+    var password = 'N@ni2023';
+    request.setBasicAuth(user, password);
+    request.setRequestHeader("Accept", "application/json");
+    var response = request.execute();
+    var responsebody = response.getBody();
+    var objJSON = JSON.parse(responsebody);
+    var results = [];
+    var finalresult = {};
+    for (var i = 0; i < objJSON.result.length; i++) {
+        var incident = {};
+        incident['number'] = objJSON.result[i].number;
+        incident['category'] = objJSON.result[i].category;
+        results.push(incident);
+    }
+    finalresult.incidents = results;
+    current.description = JSON.stringify(finalresult);
+    current.update();
+    action.setRedirectURL(current);
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-29 11:38:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>523835b097eea11081a6bb46f053afc3</sys_id>
+        <sys_mod_count>58</sys_mod_count>
+        <sys_name>Incidents for Requestor</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_ui_action_523835b097eea11081a6bb46f053afc3</sys_update_name>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:36:41</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>true</ui16_compatible>
+    </sys_ui_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_ui_action_523835b097eea11081a6bb46f053afc3</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_ui_action"&gt;&lt;sys_ui_action action="INSERT_OR_UPDATE"&gt;&lt;action_name&gt;fetchincidents&lt;/action_name&gt;&lt;active&gt;true&lt;/active&gt;&lt;client&gt;true&lt;/client&gt;&lt;client_script_v2&gt;&lt;![CDATA[function onClick(g_form) {
+
+}]]&gt;&lt;/client_script_v2&gt;&lt;comments/&gt;&lt;condition&gt;current.canWrite()&lt;/condition&gt;&lt;form_action&gt;true&lt;/form_action&gt;&lt;form_button&gt;true&lt;/form_button&gt;&lt;form_button_v2&gt;false&lt;/form_button_v2&gt;&lt;form_context_menu&gt;false&lt;/form_context_menu&gt;&lt;form_link&gt;false&lt;/form_link&gt;&lt;form_menu_button_v2&gt;false&lt;/form_menu_button_v2&gt;&lt;form_style/&gt;&lt;format_for_configurable_workspace&gt;false&lt;/format_for_configurable_workspace&gt;&lt;hint/&gt;&lt;isolate_script&gt;true&lt;/isolate_script&gt;&lt;list_action&gt;false&lt;/list_action&gt;&lt;list_banner_button&gt;false&lt;/list_banner_button&gt;&lt;list_button&gt;false&lt;/list_button&gt;&lt;list_choice&gt;false&lt;/list_choice&gt;&lt;list_context_menu&gt;false&lt;/list_context_menu&gt;&lt;list_link&gt;false&lt;/list_link&gt;&lt;list_save_with_form_button&gt;false&lt;/list_save_with_form_button&gt;&lt;list_style/&gt;&lt;messages/&gt;&lt;name&gt;Incidents for Requestor&lt;/name&gt;&lt;onclick&gt;fetch()&lt;/onclick&gt;&lt;order&gt;100&lt;/order&gt;&lt;script&gt;&lt;![CDATA[function fetch() {
+    var confirmation = confirm('Do you want to fetch all the incidents for the current caller?');
+    if (confirmation) {
+        gsftSubmit(null, g_form.getFormElement(), 'fetchincidents');
+    } else if (!confirmation) {
+        return;
+    }
+
+}
+if (typeof window == 'undefined') {
+    restcall();
+}
+
+function restcall() {
+    var request = new sn_ws.RESTMessageV2();
+    request.setQueryParameter('sysparm_query', 'caller_id=' + current.u_requested_for);
+    request.setQueryParameter('sysparm_fields', 'number,category');
+    //request.setQueryParameter('sysparm_limit',10);
+    request.setLogLevel('all');
+    request.setEndpoint('https://dev36074.service-now.com/api/now/table/incident');
+    request.setHttpMethod('GET');
+    //Eg. UserName="admin", Password="admin" for this code sample.
+    var user = 'narendranath.reddy';
+    var password = 'N@ni2023';
+    request.setBasicAuth(user, password);
+    request.setRequestHeader("Accept", "application/json");
+    var response = request.execute();
+    var responsebody = response.getBody();
+    var objJSON = JSON.parse(responsebody);
+    var results = [];
+    var finalresult = {};
+    for (var i = 0; i &lt; objJSON.result.length; i++) {
+        var incident = {};
+        incident['number'] = objJSON.result[i].number;
+        incident['category'] = objJSON.result[i].category;
+        results.push(incident);
+    }
+    finalresult.incidents = results;
+    current.description = JSON.stringify(finalresult);
+    current.update();
+    action.setRedirectURL(current);
+}]]&gt;&lt;/script&gt;&lt;show_insert&gt;false&lt;/show_insert&gt;&lt;show_multiple_update&gt;false&lt;/show_multiple_update&gt;&lt;show_query&gt;false&lt;/show_query&gt;&lt;show_update&gt;true&lt;/show_update&gt;&lt;sys_class_name&gt;sys_ui_action&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-04-29 11:38:47&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;523835b097eea11081a6bb46f053afc3&lt;/sys_id&gt;&lt;sys_mod_count&gt;58&lt;/sys_mod_count&gt;&lt;sys_name&gt;Incidents for Requestor&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="NeedIt" source="x_58872_needit"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="NeedIt"&gt;6ead8e780f603200cd674f8ce1050ed1&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_action_523835b097eea11081a6bb46f053afc3&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;narendranath.reddy&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-05-16 13:36:41&lt;/sys_updated_on&gt;&lt;table&gt;x_58872_needit_needit&lt;/table&gt;&lt;ui11_compatible&gt;true&lt;/ui11_compatible&gt;&lt;ui16_compatible&gt;true&lt;/ui16_compatible&gt;&lt;/sys_ui_action&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-166175933</payload_hash>
+        <record_name>Incidents for Requestor</record_name>
+        <reverted_from/>
+        <source>bb8433d097f6291081a6bb46f053af8e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 13:36:41</sys_created_on>
+        <sys_id>edd975de97f2a55081a6bb46f053af77</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18824c7017f0000001</sys_recorded_at>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 13:36:41</sys_updated_on>
+        <type>UI Action</type>
+        <update_guid>a5d975deb1f2a55016591291d2163677</update_guid>
+        <update_guid_history>a5d975deb1f2a55016591291d2163677:-166175933,ffb9fd12fe36a550b03a245154f7c603:-812220788,3d99b112ae36a550077500a753cd226d:1875839644,e618b95e33f2a5507b3fcd3276b47535:72135214,2527315aa1f2a5500c390d6f36f80322:-1806565300,ec85315a14f2a550b1f9e868a6034974:2086064129,4e657d1a62f2a550e7d2910a725daeda:-1636629798,7825351a8ef2a55060f89578f249490a:33568816,fcf471d6dbf2a550d5d8857cc429a073:207175706,9f74319618f2a5501031472e77f264bf:-123792976,c8b37d16fff2a550e83289cd5e6401c3:1733657595,65833d926ff2a550d627797d3a635620:-1389654896,4f0eeab52e6ae110743b7268ba407e6f:280609867,95bc9d6101e26110282650053c4ad1f6:1052890102,be445355a0e221106947f9a8e9c52c78:1806645609,1a919b113de22110f87907e52d2a3012:-2101909548,e2f09fdd20a22110c79b71c3d88bd595:-1592464362,578e07190ea221100d464fb900f427f0:1394733788,e7ab435551a221101eb93e13646ca877:-178605340,796b4315e9a2211001cfee0d0a73eaa4:-210458620,5b6a4f5d50622110b855d6942277f644:-1802525352,82894bdd1c622110b01055ae12a3f1d5:-341024902,a3798bdd826221100894dcc92078e518:2017408079,32380b9d24622110f6b608e91bb9bd62:-1274884056,8d57cb5d006221109f92004e7977da40:-502603821,4fa40f551e622110ad73ea9bb19ae3e9:92165537,32e20b553162211081ff9fcb021331f6:-2115423429,9d8ffe5d23222110668ad2f921566198:-1525887970,cc6ff61d3a2221100729f3d795b0496d:-324222522,16ae361df622211057e3543a7081c002:-2085040463,729ef61d392221100e2de3169d56390f:-1798415289,4b7e721d4e2221109218f86407998cf3:-173657822,c64e3e597a222110a0e445819bc7b651:-955890486,672d32197b2221104de870ac9da31324:-1153987613,442db65985222110297bb37bd19aa016:-1839238589,36ec3219792221102238d4036ff2160e:-251847277,5be34638ee22e1103ab874607abd1637:523358039,b5734a38f722e110acdd622210fd12bc:2068335309,cd438ef4a322e1104b804c5ff978587c:854883066,8b234638f522e110c32c6bd421f7c62f:-1617882350,eee282f40d22e1103c4bbfa9e8df5c65:-1171557872,cb724a74b122e1105613f3cff9576bd2:155994661,55c1c6744622e110bc93fcb85e50ece6:-195709169,75618afc09eea110878371cb9ef01f1e:-399765077,0f01c2708522e110d1beef966efcdff0:-1677779866,a6d0cefc67eea1108a20edeb97855c5f:806042785,756f75bc9deea110edc6a1e5ab196ae8:-1284636499,9f2ffdfc94eea110cc168c595f16e355:199918646,49ce3dbc54eea1100e260e2fb03fb9dc:-2061039395,909ebd7ccaeea110415e92302b77c108:1279455208,4b4e71bc8eeea110a8eca6d6f78a38bd:-99830541,921e357c15eea1105bbf520cda452d26:292918382,344d3db8f6eea110c25f6610dc6776e7:2050976807,e72df5f8d8eea1109e5fc53cb89f5f91:-1214273946,a1fc71f8eeeea110af150186d0b9e48f:-1321368062,059cf9781beea110d7df50a2e1e172eb:232712952,a05cbdb48deea110b59ea89a40cb3f23:-475301988,cb3cf97848eea1101958db53f28f2c64:-457389102,3cdbf5b473eea110fd0012e6853cdbab:-2065358399</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 15:00:18</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_action">sys_ui_action</sys_db_object>
+        <sys_id>6e2fa0cc890d4e5080385790fb152900</sys_id>
+        <sys_metadata>523835b097eea11081a6bb46f053afc3</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Incidents for Requestor</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="NeedIt">0749c7522fb4a1100169a1fef699b62c</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_ui_action_523835b097eea11081a6bb46f053afc3</sys_update_name>
+        <sys_update_version display_value="sys_ui_action_523835b097eea11081a6bb46f053afc3">edd975de97f2a55081a6bb46f053af77</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 15:00:18</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

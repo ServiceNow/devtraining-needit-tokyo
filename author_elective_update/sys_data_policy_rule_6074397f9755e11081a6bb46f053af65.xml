@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="DELETE">
+        <disabled>ignore</disabled>
+        <field>short_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 15:30:17</sys_created_on>
+        <sys_data_policy display_value="">e444757f9755e11081a6bb46f053af5f</sys_data_policy>
+        <sys_id>6074397f9755e11081a6bb46f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy_rule_6074397f9755e11081a6bb46f053af65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 15:30:17</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_data_policy_rule>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>b6ed0869dbee36043353f22ebf9619f3</instance_id>
+        <instance_name>dev36074</instance_name>
+        <name>sys_data_policy_rule_6074397f9755e11081a6bb46f053af65</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_data_policy_rule">
+    <sys_data_policy_rule action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>short_description</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_data_policy_rule</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-03-07 15:30:17</sys_created_on>
+        <sys_data_policy display_value="">e444757f9755e11081a6bb46f053af5f</sys_data_policy>
+        <sys_id>6074397f9755e11081a6bb46f053af65</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_data_policy_rule_6074397f9755e11081a6bb46f053af65</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-07 15:30:17</sys_updated_on>
+        <table>x_58872_needit_needit</table>
+    </sys_data_policy_rule>
+</record_update>]]></payload>
+        <payload_hash>-576129303</payload_hash>
+        <record_name>short_description</record_name>
+        <reverted_from/>
+        <source>5bf58850976e211081a6bb46f053af51</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-04-27 13:47:20</sys_created_on>
+        <sys_id>d0160490976e211081a6bb46f053af26</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>187c2f7edce0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-04-27 13:47:20</sys_updated_on>
+        <type>Data Policy Rule</type>
+        <update_guid>9c160490226e2110fcfd8d4324438525</update_guid>
+        <update_guid_history>9c160490226e2110fcfd8d4324438525:0,97658cdc512e211024025d84bece3354:-1158492025,acea9f4c0de621109a16f87a43a5c3c7:0,70f913c8e5e6211097ce6ba5bb59a3b6:-1158492025,343753442ae62110bd2809537a50d752:0,757657804be6211031da5ed24ddbcf45:-1158492025,578479bbdc55e1107844ca148d227f26:-1755866605</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>narendranath.reddy</sys_created_by>
+        <sys_created_on>2023-05-16 12:06:47</sys_created_on>
+        <sys_db_object display_value="" name="sys_data_policy_rule">sys_data_policy_rule</sys_db_object>
+        <sys_id>09229960322d437b87f9504b8c5df911</sys_id>
+        <sys_metadata>6074397f9755e11081a6bb46f053af65</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>short_description</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent display_value="">e444757f9755e11081a6bb46f053af5f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_data_policy_rule_6074397f9755e11081a6bb46f053af65</sys_update_name>
+        <sys_update_version display_value="sys_data_policy_rule_6074397f9755e11081a6bb46f053af65">d0160490976e211081a6bb46f053af26</sys_update_version>
+        <sys_updated_by>narendranath.reddy</sys_updated_by>
+        <sys_updated_on>2023-05-16 12:06:47</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
